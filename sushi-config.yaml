@@ -2,7 +2,7 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: "napkon-cardiology-implementationguide"
+id: "napkon-cardiology"
 canonical: "https://www.netzwerk-universitaetsmedizin.de/fhir"
 name: "napkon-cardiology"
 status: "draft"
