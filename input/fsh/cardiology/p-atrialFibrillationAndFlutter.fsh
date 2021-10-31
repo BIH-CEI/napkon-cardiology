@@ -16,7 +16,7 @@ Description: "Occurrence of Atrial fibrillation and flutter (disorder)"
 Instance: atrial-fibrillation-and-flutter-instance
 InstanceOf: atrial-fibrillation-and-flutter
 Usage: #example
-Title: "cardiomyopathy-instance"
-Description: "Example of a cardiomyopathy"
+Title: "atrial-fibrillation-and-flutter-instance"
+Description: "Example of a atrial fibrillation and flutter"
 * code = $sct#195080001 "Atrial fibrillation and flutter (disorder)"
 * subject = Reference(ExamplePatient)
