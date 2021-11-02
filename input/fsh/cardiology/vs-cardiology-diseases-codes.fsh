@@ -16,16 +16,16 @@ Description:  "Codes related to the Cardiology Module."
 * ^url = $CardiologyDiseasesCodes // Path declared as Alias
 
 // Codes for DISORDERS
-* $sct#195080001 "Atrial fibrillation and flutter (disorder)"
-* $sct#49436004  "Atrial fibrillation (disorder)"
-* $sct#5370000   "Atrial flutter (disorder)"
-* $sct#84114007  "Heart failure (disorder)"
-* $sct#85898001  "Cardiomyopathy (disorder)"
-* $sct#59494005  "Congenital septal defect of heart (disorder)"
-* $sct#13213009  "Congenital heart disease (disorder)"
-* $sct#17338001  "Ventricular premature beats (disorder)"
-* $sct#63593006  "Supraventricular premature beats (disorder)"
-* $sct#233917008 "Atrioventricular block (disorder)"
+* $sct#195080001 "Atrial fibrillation and flutter (disorder)"  //done
+* $sct#49436004  "Atrial fibrillation (disorder)" //done 
+* $sct#5370000   "Atrial flutter (disorder)" //done 
+* $sct#84114007  "Heart failure (disorder)" //done 
+* $sct#85898001  "Cardiomyopathy (disorder)" //done
+* $sct#59494005  "Congenital septal defect of heart (disorder)" //done
+* $sct#13213009  "Congenital heart disease (disorder)" //done
+* $sct#17338001  "Ventricular premature beats (disorder)" //done
+* $sct#63593006  "Supraventricular premature beats (disorder)" //done 
+* $sct#233917008 "Atrioventricular block (disorder)"  //done
 * $sct#6374002   "Bundle branch block (disorder)"
 * $sct#266249003 "Ventricular hypertrophy (disorder)"
 * $sct#373945007 "Pericardial effusion (disorder)"
