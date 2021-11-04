@@ -5,7 +5,7 @@ Profile: MedicationARB
 Parent: MedicationStatement
 Id: medication-angiotensin-receptor-blocker
 Title: "Medication ARB"
-Description: "MMedication requirements in the context of cardiology module"
+Description: "Medication requirements in the context of cardiology module"
 
 * insert napkon-metadata(2021-11-04, #draft, 0.1.0)
 

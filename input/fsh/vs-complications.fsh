@@ -23,3 +23,4 @@ Description:  "Complications due to COVID19 related to the cardiology module"
 // Pulmonale bakterielle Superinfektionen fehlt
 * $sct#373945007  "Pericardial effusion (disorder)"
 
+// ToDo: Zwei Codes ergänzen

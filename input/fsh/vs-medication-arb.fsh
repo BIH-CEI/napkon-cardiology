@@ -1,5 +1,5 @@
 // Author: Thomas Haese
-// Charité – Universitätsmedizin Berlin
+// Charité – Universitätsmedizin Berlin 
 
 ValueSet: MedicationARB
 Id: medication-arb
