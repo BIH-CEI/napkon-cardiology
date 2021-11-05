@@ -1,5 +1,7 @@
+Alias: $gecco-base-condition = https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/gecco-base-condition
+
 Profile:  ChronicalCardiologicalDiseases
-Parent: Condition
+Parent: $gecco-base-condition
 Id: chronical-cardiological-diseases
 Title: "Chronical Cardiological Diseases"
 Description: "Occurrence of Chronical Cardiological Diseases"
@@ -21,5 +23,6 @@ InstanceOf: chronical-cardiological-diseases
 Usage: #example
 Title: "chronical-cardiological-diseases-instance"
 Description: "Chronical Cardiological Diseases"
-* code = * $sct#84114007	"Heart failure"
+* code = $sct#84114007	"Heart failure"
 * subject = Reference(ExamplePatient)
+* recordedDate = "2021"
