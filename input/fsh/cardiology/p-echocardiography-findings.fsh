@@ -22,7 +22,7 @@ InstanceOf: echocardiography-findings
 Usage: #example
 Title: "Echocardiography finding - confirmed"
 Description: "Example of a confirmed finding from echocardiography"
-* extension[diseaseCourse].valueCodeableConcept = $sct#255314001 "Progressive (qualifier value)"
+* extension[diseaseCourse].valueCodeableConcept = $sct#255314001 "Progressive (qualifier value)"
 * code = $sct#56786000	"Pulmonic valve stenosis (disorder)"
 * subject = Reference(ExamplePatient)
 * recordedDate = "2021"
