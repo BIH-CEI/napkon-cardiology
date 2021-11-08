@@ -1,14 +1,14 @@
-﻿napkonmodule : Validation Results
+﻿napkoncardiology : Validation Results
 =========================================
 
-err = 0, warn = 11, info = 1
-IG Publisher Version: 1.1.83
-Generated Tue Oct 26 09:15:40 UTC 2021. FHIR version 4.0.1 for napkon-module#0.1.0 (canonical = https://www.netzwerk-universitaetsmedizin.de/fhir)
- Build Errors : 0 / 8 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-napkon-module : 0 / 1 / 1
+err = 0, warn = 8, info = 1
+IG Publisher Version: 1.1.84
+Generated Mon Nov 08 22:56:33 UTC 2021. FHIR version 4.0.1 for napkon-cardiology#0.1.0 (canonical = https://www.netzwerk-universitaetsmedizin.de/fhir)
+ Build Errors : 0 / 7 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-napkon-cardiology : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Patient-ExamplePatient : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/ValueSet-detected-not-detected-unknown-undetermined : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/ValueSet-present-not-present-undetermined-other : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-detected-not-detected-unknown-undetermined : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-present-not-present-undetermined-other : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-restricted-event-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-yes-no-unknown : 0 / 0 / 1
 </table>
@@ -21,13 +21,10 @@ WARNING: ImplementationGuide.dependency[3].url: The canonical URL for an Impleme
 WARNING: ImplementationGuide.dependency[4].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 WARNING: ImplementationGuide.dependency[5].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 WARNING: ImplementationGuide.dependency[6].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/ExamplePatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-== fsh-generated/resources/ImplementationGuide-napkon-module.json ==
-WARNING: ImplementationGuide/napkon-module: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ImplementationGuide-napkon-cardiology.json ==
+WARNING: ImplementationGuide/napkon-cardiology: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/Patient-ExamplePatient.json ==
 == fsh-generated/resources/ValueSet-detected-not-detected-unknown-undetermined.json ==
-WARNING: ValueSet/detected-not-detected-unknown-undetermined: ValueSet.compose[0].include[0].concept[0]: The code 260373001 is not valid in the system http://snomed.info/sct version http://snomed.info/sct/900000000000207008/version/20210731
 == fsh-generated/resources/ValueSet-present-not-present-undetermined-other.json ==
-WARNING: ValueSet/present-not-present-undetermined-other: ValueSet.compose[0].include[0].concept[0]: The code 410605003 is not valid in the system http://snomed.info/sct version http://snomed.info/sct/900000000000207008/version/20210731
 == fsh-generated/resources/ValueSet-restricted-event-status.json ==
 == fsh-generated/resources/ValueSet-yes-no-unknown.json ==

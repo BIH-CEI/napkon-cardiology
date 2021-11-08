@@ -1,11 +1,11 @@
 {
-  "url": "https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-module",
-  "name": "napkonmodule",
-  "package-id": "napkon-module",
+  "url": "https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-cardiology",
+  "name": "napkoncardiology",
+  "package-id": "napkon-cardiology",
   "ig-ver": "0.1.0",
-  "date": "Tue, 26 Oct, 2021 09:15:20 +0000",
+  "date": "Mon, 08 Nov, 2021 22:56:17 +0000",
   "errs": 0,
-  "warnings": 11,
+  "warnings": 8,
   "hints": 1,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"

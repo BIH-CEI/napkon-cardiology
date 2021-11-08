@@ -1,15 +1,15 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "napkon-module",
+  "id": "napkon-cardiology",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>napkonmodule</h2><p>The official URL for this implementation guide is: </p><pre>https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-module</pre></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>napkoncardiology</h2><p>The official URL for this implementation guide is: </p><pre>https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-cardiology</pre></div>"
   },
-  "url": "https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-module",
+  "url": "https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-cardiology",
   "version": "0.1.0",
-  "name": "napkonmodule",
+  "name": "napkoncardiology",
   "status": "draft",
-  "date": "2021-10-26T09:15:20+00:00",
+  "date": "2021-11-08T22:56:17+00:00",
   "publisher": "Charité - Universitätsmedizin Berlin",
   "contact": [
     {
@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "packageId": "napkon-module",
+  "packageId": "napkon-cardiology",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -389,6 +389,7 @@
           "reference": "Patient/ExamplePatient"
         },
         "name": "ExamplePatient",
+        "description": "Example patient to be used as reference in other instances",
         "exampleBoolean": true
       }
     ],

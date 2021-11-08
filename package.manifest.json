@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
   "fhirVersion": "[4.0.1]",
-  "date": "20211026091411",
-  "name": "napkon-module"
+  "date": "20211108225507",
+  "name": "napkon-cardiology"
 }

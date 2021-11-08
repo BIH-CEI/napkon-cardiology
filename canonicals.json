@@ -1,10 +1,10 @@
 [
   {
-    "id": "napkon-module",
+    "id": "napkon-cardiology",
     "type": "ImplementationGuide",
-    "url": "https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-module",
+    "url": "https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-cardiology",
     "version": "0.1.0",
-    "name": "napkonmodule"
+    "name": "napkoncardiology"
   },
   {
     "id": "detected-not-detected-unknown-undetermined",

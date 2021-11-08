@@ -5,18 +5,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-module> a fhir:ImplementationGuide;
+<https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-cardiology> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "napkon-module"];
+  fhir:Resource.id [ fhir:value "napkon-cardiology"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>napkonmodule</h2><p>The official URL for this implementation guide is: </p><pre>https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-module</pre></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>napkoncardiology</h2><p>The official URL for this implementation guide is: </p><pre>https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-cardiology</pre></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-module"];
+  fhir:ImplementationGuide.url [ fhir:value "https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-cardiology"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
-  fhir:ImplementationGuide.name [ fhir:value "napkonmodule"];
+  fhir:ImplementationGuide.name [ fhir:value "napkoncardiology"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-10-26T09:15:20+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-11-08T22:56:17+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -27,7 +27,7 @@
        fhir:ContactPoint.value [ fhir:value "https://www.netzwerk-universitaetsmedizin.de" ]
      ]
   ];
-  fhir:ImplementationGuide.packageId [ fhir:value "napkon-module"];
+  fhir:ImplementationGuide.packageId [ fhir:value "napkon-cardiology"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
@@ -395,6 +395,7 @@
          fhir:Reference.reference [ fhir:value "Patient/ExamplePatient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ExamplePatient" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example patient to be used as reference in other instances" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
@@ -473,7 +474,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-module.ttl> a owl:Ontology;
+<https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-cardiology.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
