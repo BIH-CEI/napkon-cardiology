@@ -21,3 +21,8 @@ Description: "Codes for Echocardiography Findings"
 * codes from system $sct where concept is-a #425548001 "Abscess of heart (disorder)" // Paravalvulärer Abszess (nicht direkt gefunden)
 * codes from system $sct where concept is-a #459055004 "Vegetation of heart (disorder)" // Vegetationen
 * codes from system $sct where concept is-a #439127006 "Thrombosis (disorder)" // Thrombusnachweis
+
+// Ventrikuläre Hypertrophie
+* $sct#55827005 "Left ventricular hypertrophy (disorder)" // linksventrikulär
+* $sct#89792004 "Right ventricular hypertrophy (disorder)" // rechtsventrikulär
+* codes from system $sct where concept is-a #266249003 "Ventricular hypertrophy (disorder)"
