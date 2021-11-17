@@ -13,6 +13,7 @@ Alias: $dicom = http://dicom.nema.org/resources/ontology/DCM
 
 // HL7 / FHIR specific code systems
 Alias: $cs-observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $cs-observation-interpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
 Alias: $cs-absent-unknown-uv-ips = http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
 Alias: $cs-condition-category = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: $cs-data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-reason

@@ -18,6 +18,8 @@ Description: "Tricuspid Annular Plane Systolic Excursion in cm"
   * coding[loinc].system 1..
   * coding[loinc].code 1..
 * insert value-quantity(#cm)
+* interpretation 1..1 MS
+* interpretation from LVEFInterpretation (required)
 
 Instance: tricuspid-annular-plane-systolic-excursion
 InstanceOf: tricuspid-annular-plane-systolic-excursion
@@ -27,4 +29,5 @@ Description: "Example of tricuspid annular plane systolic excursion"
 * valueQuantity.value = 1.2
 * status = #final
 * subject = Reference(ExamplePatient)
+* interpretation = $cs-observation-interpretation#H "High" /
 * effectiveDateTime = "2015-02-07T13:28:17-05:00"
