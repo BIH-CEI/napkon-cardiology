@@ -5,6 +5,8 @@ Parent: $gecco-base-condition
 Id: ecg-findings
 Title: "ECG Findings"
 Description: "Other findings from electrocardiogram"
+* insert napkon-metadata(2021-11-17, #draft, 0.1.0)
+* insert mii-patient-reference
 * code.coding[sct] from ECGFindings (required)
 
 Instance: SinusRhythmConfirmed

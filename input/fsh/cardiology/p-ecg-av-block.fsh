@@ -5,6 +5,8 @@ Parent: $gecco-base-condition
 Id: ecg-atrioventricular-block
 Title: "ECG Atrioventricular Block"
 Description: "Atrioventricular block finding from electrocardiogram"
+* insert napkon-metadata(2021-11-17, #draft, 0.1.0)
+* insert mii-patient-reference
 * code.coding[sct] from ECGAtrioventricularBlock (required)
 
 Instance: ECGAtrioventricularBlockConfirmed
