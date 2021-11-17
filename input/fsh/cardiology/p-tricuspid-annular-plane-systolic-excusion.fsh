@@ -29,5 +29,5 @@ Description: "Example of tricuspid annular plane systolic excursion"
 * valueQuantity.value = 1.2
 * status = #final
 * subject = Reference(ExamplePatient)
-* interpretation = $cs-observation-interpretation#H "High" /
+* interpretation = $cs-observation-interpretation#H "High"
 * effectiveDateTime = "2015-02-07T13:28:17-05:00"
