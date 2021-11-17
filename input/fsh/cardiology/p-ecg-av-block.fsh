@@ -4,7 +4,7 @@ Profile: ECGAtrioventricularBlock
 Parent: $gecco-base-condition
 Id: ecg-atrioventricular-block
 Title: "ECG Atrioventricular Block"
-Description: ""
+Description: "Atrioventricular block finding from electrocardiogram"
 * code.coding[sct] from ECGAtrioventricularBlock (required)
 
 Instance: ECGAtrioventricularBlockConfirmed

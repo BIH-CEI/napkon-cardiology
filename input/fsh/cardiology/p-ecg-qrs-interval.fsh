@@ -4,7 +4,7 @@ Profile: ECGQRSInterval
 Parent: Observation
 Id: ecg-qrs-interval
 Title: "ECG QRS Interval"
-Description: ""
+Description: "QRS interval from electrocardiogram"
 * insert napkon-metadata(2021-11-17, #draft, 0.1.0)
 * insert mii-patient-reference
 * bodySite = $sct#80891009 "Heart structure (body structure)"
@@ -20,7 +20,7 @@ Instance: ECGQRSInterval
 InstanceOf: ecg-qrs-interval
 Usage: #example
 Title: "ECG QRS Interval"
-Description: ""
+Description: "Example: Wide QRS complex"
 * status = #final
 * subject = Reference(ExamplePatient)
 * valueCodeableConcept = $sct#991002 "Wide QRS complex (finding)"

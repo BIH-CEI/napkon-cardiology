@@ -4,7 +4,7 @@ Profile: ECGSTInterval
 Parent: Observation
 Id: ecg-st-interval
 Title: "ECG ST Interval"
-Description: ""
+Description: "ST interval from electrocardiogram"
 * insert napkon-metadata(2021-11-17, #draft, 0.1.0)
 * insert mii-patient-reference
 * bodySite = $sct#80891009 "Heart structure (body structure)"
@@ -20,7 +20,7 @@ Instance: ECGSTInterval
 InstanceOf: ecg-st-interval
 Usage: #example
 Title: "ECG ST Interval"
-Description: ""
+Description: "Example: ST segment elevation"
 * status = #final
 * subject = Reference(ExamplePatient)
 * valueCodeableConcept = $sct#76388001 "ST segment elevation (finding)"

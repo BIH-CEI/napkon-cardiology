@@ -3,7 +3,7 @@
 ValueSet: ECGQRSAxis
 Id: ecg-qrs-axis
 Title: "ECG QRS Axis"
-Description: ""
+Description: "QRS axis orientation types"
 //* $sct#366170001 "Finding of electrocardiogram QRS Axis (finding)" -- not used
 * $ncard#ecg-qrs-axis-overturned-left-type // Überdrehter Linkstyp
 * $ncard#ecg-qrs-axis-left-type // Linkstyp

@@ -4,7 +4,7 @@ Profile: ECGQRSAxis
 Parent: Observation
 Id: ecg-qrs-axis
 Title: "ECG QRS Axis"
-Description: ""
+Description: "QRS Axis orientiation from electrocardiogram"
 * insert napkon-metadata(2021-11-17, #draft, 0.1.0)
 * insert mii-patient-reference
 * bodySite = $sct#80891009 "Heart structure (body structure)"
@@ -24,7 +24,7 @@ Instance: ECGQRSAxis
 InstanceOf: ecg-qrs-axis
 Usage: #example
 Title: "ECG QRS Axis"
-Description: ""
+Description: "Example: QRS Axis steep type"
 * status = #final
 * subject = Reference(ExamplePatient)
 * valueCodeableConcept.coding[napkon] = $ncard#ecg-qrs-axis-steep-type

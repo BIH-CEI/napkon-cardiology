@@ -4,7 +4,7 @@ Profile: ECGBundleBranchBlock
 Parent: Observation
 Id: ecg-bundle-branch-block
 Title: "ECG Bundle Branch Block"
-Description: ""
+Description: "Bundle branch block findings from electrocardiogram"
 * insert napkon-metadata(2021-11-17, #draft, 0.1.0)
 * insert mii-patient-reference
 * bodySite = $sct#80891009 "Heart structure (body structure)"
@@ -20,7 +20,7 @@ Instance: ECGBundleBranchBlock
 InstanceOf: ecg-bundle-branch-block
 Usage: #example
 Title: "ECG Bundle Branch Block"
-Description: ""
+Description: "Example: Complete left bundle branche block"
 * status = #final
 * subject = Reference(ExamplePatient)
 * valueCodeableConcept = $sct#733534002 "Electrocardiographic complete left bundle branch block (finding)"
