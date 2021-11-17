@@ -1,16 +1,23 @@
-// Author: Larissa Röhrig
+// Author: Larissa Röhrig, Gregor Lichtner
 // Berlin Institute of Health | Charité
 ValueSet: EchocardiographyFindings
 Id: echocardiography-findings
 Title: "Echocardiography Findings"
 Description: "Codes for Echocardiography Findings"
-* $sct#60234000 "Aortic valve regurgitation (disorder)"
-* $sct#60573004 "Aortic valve stenosis (disorder)"
-* $sct#48724000 "Mitral valve regurgitation (disorder)"
-* $sct#79619009 "Mitral valve stenosis (disorder)"
-* $sct#111287006 "Tricuspid valve regurgitation (disorder)"
-* $sct#49915006 "Tricuspid valve stenosis (disorder)"
-* $sct#91434003 "Pulmonic valve regurgitation (disorder)"
-* $sct#56786000 "Pulmonic valve stenosis (disorder)"
-* $sct#459055004 "Vegetation of heart (disorder)"
-* $sct#439127006 "Thrombosis (disorder)"
+ // Regionale Wandbewegungsstörungen
+* codes from system $sct where concept is-a #61932003 "Paradoxical cardiac wall motion (finding)"
+* codes from system $sct where concept is-a #429750003 "Left ventricular wall motion abnormality (finding)"
+
+* codes from system $sct where concept is-a #373945007 "Pericardial effusion (disorder)" // Perikarderguss
+* codes from system $sct where concept is-a #368009 "Heart valve disorder (disorder)" // Klappenvitien
+* codes from system $sct where concept is-a #60234000 "Aortic valve regurgitation (disorder)" // Aortenklappeninsuffizienz
+* codes from system $sct where concept is-a #60573004 "Aortic valve stenosis (disorder)" // Aortenklappenstenose
+* codes from system $sct where concept is-a #48724000 "Mitral valve regurgitation (disorder)" // Mitralklappeninsuffizienz
+* codes from system $sct where concept is-a #79619009 "Mitral valve stenosis (disorder)" // Mitralklappenstenose
+* codes from system $sct where concept is-a #111287006 "Tricuspid valve regurgitation (disorder)" // Trikuspidalklappeninsuffizienz
+* codes from system $sct where concept is-a #49915006 "Tricuspid valve stenosis (disorder)" // Trikuspidalklappenstenose
+* codes from system $sct where concept is-a #91434003 "Pulmonic valve regurgitation (disorder)" // Pulmonalklappeninsuffizienz
+* codes from system $sct where concept is-a #56786000 "Pulmonic valve stenosis (disorder)" // Pulmonalklappenstenose
+* codes from system $sct where concept is-a #425548001 "Abscess of heart (disorder)" // Paravalvulärer Abszess (nicht direkt gefunden)
+* codes from system $sct where concept is-a #459055004 "Vegetation of heart (disorder)" // Vegetationen
+* codes from system $sct where concept is-a #439127006 "Thrombosis (disorder)" // Thrombusnachweis
