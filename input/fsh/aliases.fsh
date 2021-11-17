@@ -6,9 +6,10 @@ Alias: $sct = http://snomed.info/sct
 Alias: $sctIntl2021 = http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731
 Alias: $ucum = http://unitsofmeasure.org
 
-Alias: $ops = http://fhir.de/CodeSystem/bfarm/ops
+Alias: $ops = http://fhir.de/CodeSystem/bfarm/ops|2021
 Alias: $atcde = http://fhir.de/CodeSystem/bfarm/atc
-Alias: $icd10-gm = http://fhir.de/CodeSystem/dimdi/icd-10-gm
+Alias: $icd10-gm = http://fhir.de/CodeSystem/bfarm/icd-10-gm|2022
+Alias: $dicom = http://dicom.nema.org/resources/ontology/DCM
 
 // HL7 / FHIR specific code systems
 Alias: $cs-observation-category = http://terminology.hl7.org/CodeSystem/observation-category
@@ -24,10 +25,12 @@ Alias: $loinc-sars-cov2-variants = http://loinc.org/vs/LL5768-8
 // ValueSets
 Alias: $cardiovascular-diseases-icd = https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/cardiovascular-diseases-icd
 Alias: $cardiovascular-diseases = https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/cardiovascular-diseases
+Alias: $detected-not-detected-inconclusive = https://www.netzwerk-universitaetsmedizin.de/fhir/ValueSet/detected-not-detected-inconclusive
 
 // GECCO resources
 Alias: $gecco-base-condition = https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/gecco-base-condition
 Alias: $gecco-diagnosis-covid19 = https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/diagnosis-covid-19
+Alias: $gecco-vital-signs-base = https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/vital-signs-base
 // MII resources
 Alias: $mii-medication-statement = https://www.medizininformatik-initiative.de/fhir/core/modul-medikation/StructureDefinition/MedicationStatement
 Alias: $mii-condition = https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/StructureDefinition/Diagnose
