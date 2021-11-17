@@ -4,6 +4,7 @@ ValueSet: ChronicCardiologicDiseasesSCT
 Id: chronic-cardiologic-diseases-sct
 Title: "Cardiology Chronic Diseases"
 Description: "Cardiology Chronic Diseases Codes"
+* insert napkon-metadata(2021-11-17, #draft, 0.1.0)
 * $sct#49436004 "Atrial fibrillation (disorder)" // Vorhofflimmern - ok
 * $sct#5370000 "Atrial flutter (disorder)" // Vorhofflattern - ok
 * $sct#416940007:363589002=275227003 "Past history of procedure Where Associated procedure = Myocardial revascularization" //  Zustand nach Revaskularisation - ok
