@@ -7,6 +7,7 @@ Title: "ECG QRS Axis"
 Description: "QRS Axis orientiation from electrocardiogram"
 * insert napkon-metadata(2021-11-17, #draft, 0.1.0)
 * insert mii-patient-reference
+* obeys value-or-data-absent-reason
 * bodySite = $sct#80891009 "Heart structure (body structure)"
 * code 1..1 MS
 * code = $sct#251202000 "Electrocardiographic complex characteristic (observable entity)"
@@ -17,8 +18,7 @@ Description: "QRS Axis orientiation from electrocardiogram"
   * coding ^slicing.rules = #open
   * coding contains napkon 1..1
   * coding[napkon] from ECGQRSAxis (required)
-* effective[x] only dateTime
-* effectiveDateTime 1.. MS
+* effective[x] 1..1 MS
 
 Instance: ECGQRSAxis
 InstanceOf: ecg-qrs-axis

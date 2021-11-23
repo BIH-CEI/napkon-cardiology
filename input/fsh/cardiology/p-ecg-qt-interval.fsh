@@ -7,14 +7,14 @@ Title: "ECG QT Interval"
 Description: "QT Interval duration from electrocardiogram"
 * insert napkon-metadata(2021-11-17, #draft, 0.1.0)
 * insert mii-patient-reference
+* obeys value-or-data-absent-reason
 * bodySite = $sct#80891009 "Heart structure (body structure)"
 * code 1..1 MS
 * code = $sct#301117000 "QT interval duration (observable entity)"
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1 MS
 * valueCodeableConcept from ECGQTInterval (required)
-* effective[x] only dateTime
-* effectiveDateTime 1.. MS
+* effective[x] 1..1 MS
 
 Instance: ECGQTInterval
 InstanceOf: ecg-qt-interval
