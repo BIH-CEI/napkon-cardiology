@@ -7,6 +7,7 @@ Title: "Tricuspid Annular Plane Systolic Excursion"
 Description: "Tricuspid Annular Plane Systolic Excursion in cm"
 * insert napkon-metadata(2021-08-10, #draft, 0.1.0)
 * insert mii-patient-reference
+* obeys value-or-data-absent-reason
 * code 1..1
   * coding 1..*
   * coding ^slicing.discriminator.type = #pattern
@@ -18,7 +19,6 @@ Description: "Tricuspid Annular Plane Systolic Excursion in cm"
   * coding[loinc].system 1..
   * coding[loinc].code 1..
 * insert value-quantity(#cm)
-// TODO: add obey value.exists() or dataAbsentReason.exists() ?
 
 Instance: tricuspid-annular-plane-systolic-excursion
 InstanceOf: tricuspid-annular-plane-systolic-excursion
