@@ -38,7 +38,6 @@ Description: "Example of a refuted finding from echocardiography"
 * code = $sct#56786000 "Pulmonic valve stenosis (disorder)"
 * subject = Reference(ExamplePatient)
 * recordedDate = "2021"
-* extension[diseaseCourse].valueCodeableConcept = $sct#410594000 "Definitely NOT present (qualifier value)"
 * verificationStatus.coding[conditionVerificationStatus] = $cs-condition-ver-status#refuted
 * verificationStatus.coding[snomed] = $sct#410594000 "Definitely NOT present (qualifier value)"
 
@@ -49,7 +48,6 @@ Usage: #example
 Title: "Echocardiography finding - unknown"
 Description: "Example of a finding from echocardiography of which the presence is unknown"
 * insert uncertainty-of-presence
-* extension[diseaseCourse].valueCodeableConcept = $sct#261665006 "Unknown (qualifier value)"
 * code = $sct#56786000	"Pulmonic valve stenosis (disorder)"
 * subject = Reference(ExamplePatient)
 * recordedDate = "2021"

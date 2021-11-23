@@ -18,8 +18,7 @@ Description: "Tricuspid Annular Plane Systolic Excursion in cm"
   * coding[loinc].system 1..
   * coding[loinc].code 1..
 * insert value-quantity(#cm)
-* interpretation 1..1 MS
-* interpretation from LVEFInterpretation (required)
+// TODO: add obey value.exists() or dataAbsentReason.exists() ?
 
 Instance: tricuspid-annular-plane-systolic-excursion
 InstanceOf: tricuspid-annular-plane-systolic-excursion

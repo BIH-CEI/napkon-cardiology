@@ -21,6 +21,8 @@ Description: "Left Ventricular Ejection Fraction in %"
   * coding[snomed].system 1..
   * coding[snomed].code 1..
 * insert value-quantity(#%)
+* interpretation 0..1 MS
+* interpretation from LVEFInterpretation (required)
 
 Instance: left-ventricular-ejection-fraction
 InstanceOf: left-ventricular-ejection-fraction

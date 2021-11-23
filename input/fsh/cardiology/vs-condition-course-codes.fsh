@@ -9,6 +9,4 @@ Description: "Value set for clinical course of a disease (how the disease behave
 * $sct#255314001 "Progressive (qualifier value)"
 * $sct#58158008 "Stable (qualifier value)"
 * $sct#37865006 "Regressive (qualifier value)"
-* $sct#410605003 "Confirmed present (qualifier value)"
-* $sct#410594000 "Definitely NOT present (qualifier value)"
 * $sct#261665006 "Unknown (qualifier value)"

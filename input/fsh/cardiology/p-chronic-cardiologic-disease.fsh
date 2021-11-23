@@ -13,7 +13,7 @@ Description: "Occurrence of Chronic Cardiologic Diseases"
   * coding contains sct 1..1
   * coding[sct] = $sct#394579002 "Cardiology (qualifier value)"
 * code.coding[sct] from chronic-cardiologic-diseases-sct (required)
-* code.coding[icd10-gm] from chronic-cardiologic-diseases-icd10-gm (required)
+* code.coding[icd10-gm] from chronic-cardiologic-diseases-icd (required)
 
 Instance: chronic-cardiologic-diseases-instance
 InstanceOf: chronic-cardiologic-disease
