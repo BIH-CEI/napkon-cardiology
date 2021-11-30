@@ -1,6 +1,6 @@
 // Author: Larissa Röhrig, Gregor Lichtner
 // Berlin Institute of Health | Charité
-Profile:  ChronicCardiologicDisease
+Profile: ChronicCardiologicDisease
 Parent: $gecco-base-condition
 Id: chronic-cardiologic-disease
 Title: "Chronic Cardiologic Diseases"
@@ -20,7 +20,7 @@ InstanceOf: chronic-cardiologic-disease
 Usage: #example
 Title: "chronic-cardiologic-diseases-instance"
 Description: "Chronical Cardiological Diseases"
-* code = $sct#84114007	"Heart failure"
+* code = $sct#84114007 "Heart failure"
 * subject = Reference(ExamplePatient)
 * recordedDate = "2021"
 * verificationStatus.coding[conditionVerificationStatus] = $cs-condition-ver-status#confirmed
