@@ -30,10 +30,10 @@ Please feel free to contribute to this implementation guide. Issues and change r
 Authors
 --------
 * `Gregor Lichtner <https://github.com/glichtner>`_
-* `Larissa Röhrig <https://github.com/Larissa-MR>`_
 * `Thomas Haese <https://github.com/thaese>`_
-* `Hassan Sami Adnan <https://github.com/sami5001>`_
+* `Larissa Röhrig <https://github.com/Larissa-MR>`_
 * `Sally Lucie Brose <https://github.com/BroseS8927>`_
+* `Hassan Sami Adnan <https://github.com/sami5001>`_
 
 Credits
 -------
@@ -41,4 +41,3 @@ This package was created with Cookiecutter_ and the `glichtner/cookiecutter-fhir
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`glichtner/cookiecutter-fhir-shorthand`: https://github.com/glichtner/cookiecutter-fhir-shorthand
-
