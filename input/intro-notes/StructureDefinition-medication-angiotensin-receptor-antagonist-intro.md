@@ -4,19 +4,22 @@
 
 ### Guidance
 
-| Parameter Case Report Form | FHIR Resource Attribute |
-| -------------------------- | ----------------------- |
-| ... | `...` |
-{:.grid}
+This profile encodes the application (intake) of angiotensin II receptor antagonists, also known as AT1-receptor blockers.
 
 | Parameter Case Report Form | Response Options |
 | -------------------------- | ---------------- |
-| ... | ... |
+| Intake of AT1-receptor blockers | Yes / No / Unknown / Cancelled |
 {:.grid}
 
-| Response Option | Code |
+
+The response options are encoded as follows:
+
+| Response Option | `MedicationStatement.status` |
 | ------ | ---- |
-| ... | `...` |
+| Yes | `#active` or `#completed` |
+| No | `#not-taken` |
+| Unknown | `#unknown` |
+| Cancelled | `#stopped` |
 {:.grid}
 
 

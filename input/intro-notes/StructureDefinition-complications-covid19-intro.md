@@ -4,19 +4,22 @@
 
 ### Guidance
 
-| Parameter Case Report Form | FHIR Resource Attribute |
-| -------------------------- | ----------------------- |
-| ... | `...` |
-{:.grid}
+This profile is used to encode additional complications from a COVID-19 infection that are not captured by the [GECCO complications COVID-19 profile](https://simplifier.net/guide/GermanCoronaConsensusDataSet-ImplementationGuide/Complication).
 
 | Parameter Case Report Form | Response Options |
 | -------------------------- | ---------------- |
-| ... | ... |
+| Complications in the context of COVID-19  | Myocarditis / Complete atrioventricular block / Ventricular fibrillation / Cardiogenic shock / Viral co-infections / reactivation / Pulmonary bacterial superinfection / Pericardial effusion |
 {:.grid}
 
-| Response Option | Code |
+| Response Option | `Condition.code` |
 | ------ | ---- |
-| ... | `...` |
+| Myocarditis | `Myocarditis (disorder)` |
+| Complete atrioventricular block | `Complete atrioventricular block (disorder)` |
+| Ventricular fibrillation | `Ventricular fibrillation (disorder)` |
+| Cardiogenic shock | `Cardiogenic shock (disorder)` |
+| Viral co-infections | `Viral disease (disorder)` |
+| Pulmonary bacterial superinfection | `Bacterial respiratory infection (disorder)` |
+| Pericardial effusion | `Pericardial effusion (disorder)` |
 {:.grid}
 
 

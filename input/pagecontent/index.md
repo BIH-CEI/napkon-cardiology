@@ -1,6 +1,6 @@
 ### Summary
 
-The [NAPKON] module is an extension module to the [German Corona Consensus Dataset (GECCO)][GECCO].
+The [NAPKON] cardiology module is an extension module to the [German Corona Consensus Dataset (GECCO)][GECCO].
 
 It was created in the context of the [National Pandemic Cohort Network (NAPKON)][NAPKON] project of the [National University Medicine Research Network on COVID-19 (NUM)][NUM].
 
@@ -16,11 +16,11 @@ It was created in the context of the [National Pandemic Cohort Network (NAPKON)]
 * Ann Frey (Universitätsklinikum Würzburg)
 
 #### With support from (in alphabetical order)
-* Julian Saß (Berlin Institute of Health (BIH))
 * Alexander Bartschke (Charité Universitätsmedizin Berlin)
+* Yannick Börner (gefyra GmbH)
+* Julian Saß (Berlin Institute of Health (BIH))
 * Caroline Stellmach (Charité Universitaetsmedizin Berlin)
 * Sylvia Thun (Berlin Institute of Health (BIH))
-* Yannick Börner (gefyra GmbH)
 
 ### Participation and commenting
 

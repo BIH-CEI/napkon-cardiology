@@ -4,21 +4,12 @@
 
 ### Guidance
 
-| Parameter Case Report Form | FHIR Resource Attribute |
-| -------------------------- | ----------------------- |
-| ... | `...` |
-{:.grid}
+This profile encodes the tricuspid annular plane systolic excursion (TAPSE), also known as "tricuspid valve annulus Excursion distance during systole".
 
 | Parameter Case Report Form | Response Options |
 | -------------------------- | ---------------- |
-| ... | ... |
+| Tricuspid annular plane systolic excursion (TAPSE) | _Actual value [cm]_ |
 {:.grid}
-
-| Response Option | Code |
-| ------ | ---- |
-| ... | `...` |
-{:.grid}
-
 
 {% capture resource_inheritance %}
 This profile of a FHIR {{resource.type}} is derived from the [{{resource.base | split: '/' | last}}]({{resource.base}})

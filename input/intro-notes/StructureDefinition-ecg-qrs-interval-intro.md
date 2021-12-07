@@ -4,19 +4,20 @@
 
 ### Guidance
 
-| Parameter Case Report Form | FHIR Resource Attribute |
-| -------------------------- | ----------------------- |
-| ... | `...` |
-{:.grid}
+This profile encodes the QRS interval from electrocardiography (ECG) waveforms.
 
 | Parameter Case Report Form | Response Options |
 | -------------------------- | ---------------- |
-| ... | ... |
+| QRS Interval | Normal / Wide / Narrow |
 {:.grid}
 
-| Response Option | Code |
+The response options are encoded as follows:
+
+| Response Option | `Observation.valueCodeableConcept` |
 | ------ | ---- |
-| ... | `...` |
+| Normal | `Electrocardiogram: QRS complex normal (finding)` |
+| Wide | `Wide QRS complex (finding)` |
+| Narrow | `Narrow QRS complex (finding)` |
 {:.grid}
 
 

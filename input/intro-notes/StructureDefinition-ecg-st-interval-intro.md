@@ -4,19 +4,20 @@
 
 ### Guidance
 
-| Parameter Case Report Form | FHIR Resource Attribute |
-| -------------------------- | ----------------------- |
-| ... | `...` |
-{:.grid}
+This profile encodes the ST interval from electrocardiography (ECG) waveforms.
 
 | Parameter Case Report Form | Response Options |
 | -------------------------- | ---------------- |
-| ... | ... |
+| QRS Interval | Normal / Elevation / Depression |
 {:.grid}
 
-| Response Option | Code |
+The response options are encoded as follows:
+
+| Response Option | `Observation.valueCodeableConcept` |
 | ------ | ---- |
-| ... | `...` |
+| Normal | `Electrocardiogram: ST interval normal (finding)` |
+| Elevation | `ST segment elevation (finding)` |
+| Depression | `ST segment depression (finding)` |
 {:.grid}
 
 

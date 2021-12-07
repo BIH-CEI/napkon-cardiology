@@ -4,21 +4,22 @@
 
 ### Guidance
 
-| Parameter Case Report Form | FHIR Resource Attribute |
-| -------------------------- | ----------------------- |
-| ... | `...` |
-{:.grid}
+This profile encodes the QT interval from electrocardiography (ECG) waveforms.
 
 | Parameter Case Report Form | Response Options |
 | -------------------------- | ---------------- |
-| ... | ... |
+| QT Interval | Normal / Prolonged / Shortened |
 {:.grid}
 
-| Response Option | Code |
+
+The response options are encoded as follows:
+
+| Response Option | `Observation.valueCodeableConcept` |
 | ------ | ---- |
-| ... | `...` |
+| Normal | `Electrocardiogram: Q-T interval normal (finding)` |
+| Prolonged | `Prolonged QT interval (finding)` |
+| Shortened | `Shortened QT interval (finding)` |
 {:.grid}
-
 
 {% capture resource_inheritance %}
 This profile of a FHIR {{resource.type}} is derived from the [{{resource.base | split: '/' | last}}]({{resource.base}})

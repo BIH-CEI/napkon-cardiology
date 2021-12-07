@@ -4,19 +4,20 @@
 
 ### Guidance
 
-| Parameter Case Report Form | FHIR Resource Attribute |
-| -------------------------- | ----------------------- |
-| ... | `...` |
-{:.grid}
+This profile encodes the left ventricular ejection fraction (LVEF).
 
 | Parameter Case Report Form | Response Options |
 | -------------------------- | ---------------- |
-| ... | ... |
+| Left ventricular ejection fraction | _Actual value [%]_ + Low grade / medium grade / high grade |
 {:.grid}
 
-| Response Option | Code |
+The grade of the ejection fraction is encoded in `Observation.interpration` using the following codes from the [ObservationInterpretation CodeSystem](http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation):
+
+| Response Option | `Observation.interpretation` |
 | ------ | ---- |
-| ... | `...` |
+| Low grade | `#L "Low" ` |
+| Medium grade | `#N "Normal"` |
+| High grade | `#H "High"` |
 {:.grid}
 
 

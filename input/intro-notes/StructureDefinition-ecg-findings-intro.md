@@ -4,21 +4,36 @@
 
 ### Guidance
 
-| Parameter Case Report Form | FHIR Resource Attribute |
-| -------------------------- | ----------------------- |
-| ... | `...` |
-{:.grid}
+This profile encodes additionals findings from electrocardiography (ECG). The following findings are defined:
 
 | Parameter Case Report Form | Response Options |
 | -------------------------- | ---------------- |
-| ... | ... |
+| Sinus rhythm | Yes / No / No information available |
+| Premature ventricular contractions | Yes / No / No information available |
+| Atrial ectopics | Yes / No / No information available |
+| Inverted T wave | Yes / No / No information available |
+| Low QRS voltage | Yes / No / No information available |
 {:.grid}
 
-| Response Option | Code |
-| ------ | ---- |
-| ... | `...` |
+The following codes are used for the different findings:
+
+| Finding | `Observation.code` |
+| ------- | ---------------- |
+| Sinus rhythm | `Sinus rhythm (finding)` |
+| Premature ventricular contractions | `Electrocardiogram: premature ventricular contractions (finding)` |
+| Atrial ectopics | `Electrocardiographic atrial ectopics (finding)` |
+| Inverted T wave | `Inverted T wave (finding)` |
+| Low QRS voltage | `Low QRS voltages (finding)` |
 {:.grid}
 
+The response options are encoded as follows:
+
+| Response Option | `Observation.valueBoolean` |  `Observation.dataAbsentReason` |
+| --------------- | :--------------: | :--------------: |
+| Yes | `true` | - |
+| No | `false` | - |
+| No information available | - | `#unknown` |
+{:.grid}
 
 {% capture resource_inheritance %}
 This profile of a FHIR {{resource.type}} is derived from the [{{resource.base | split: '/' | last}}]({{resource.base}})
