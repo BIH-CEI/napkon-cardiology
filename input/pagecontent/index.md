@@ -34,6 +34,7 @@ It was created in the context of the [National Pandemic Cohort Network (NAPKON)]
 * [Nationales Pandemie Kohorten Netz (NAPKON)][NAPKON]
 * [German Corona Consensus Dataset (GECCO)][GECCO]
 * [GitHub project](https://github.com/BIH-CEI/{{site.data.fhir.packageId}}/)
-* [Dataset description in ART-DECOR](https://github.com/BIH-CEI/{{site.data.fhir.packageId}}/)
+* [Dataset description in ART-DECOR](https://art-decor.org/art-decor/decor-datasets--covid19f-?id=2.16.840.1.113883.3.1937.777.53.1.2&effectiveDate=2020-08-12T00%3A00%3A00&conceptId=2.16.840.1.113883.3.1937.777.53.2.250&conceptEffectiveDate=2021-02-16T13%3A25%3A43&language=en-US)
+
 
 {% include link-list.md %}
