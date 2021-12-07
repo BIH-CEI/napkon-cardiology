@@ -4,7 +4,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: "napkon-cardiology"
 canonical: "https://www.napkon.de/fhir"
-name: NAPKON Cardiology Module
+name: "napkon-cardiology"
 status: "draft"
 version: "0.1.0"
 fhirVersion: "4.0.1"

@@ -1,14 +1,21 @@
 // Author: Gregor Lichtner
 // Charité – Universitätsmedizin Berlin
 Profile: TricuspidAnnularPlaneSystolicExcursion
-Parent: $gecco-vital-signs-base
+Parent: Observation
 Id: tricuspid-annular-plane-systolic-excursion
 Title: "Tricuspid Annular Plane Systolic Excursion"
 Description: "Tricuspid Annular Plane Systolic Excursion in cm"
 * insert napkon-metadata(2021-08-10, #draft, 0.1.0)
 * insert mii-patient-reference
 * obeys value-or-data-absent-reason
-* code 1..1
+* status MS
+* category 1..* MS
+* category ^slicing.discriminator.type = #pattern
+* category ^slicing.discriminator.path = "$this"
+* category ^slicing.rules = #open
+* category contains imaging 1..1
+* category[imaging] = $cs-observation-category#imaging "Imaging"
+* code 1..1 MS
   * coding 1..*
   * coding ^slicing.discriminator.type = #pattern
   * coding ^slicing.discriminator.path = "$this"
@@ -19,6 +26,7 @@ Description: "Tricuspid Annular Plane Systolic Excursion in cm"
   * coding[loinc].system 1..
   * coding[loinc].code 1..
 * insert value-quantity(#cm)
+* effective[x] 1..1 MS
 
 Instance: tricuspid-annular-plane-systolic-excursion
 InstanceOf: tricuspid-annular-plane-systolic-excursion

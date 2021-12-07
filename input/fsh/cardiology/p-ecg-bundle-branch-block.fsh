@@ -19,7 +19,6 @@ Description: "Bundle branch block findings from electrocardiogram"
 * valueBoolean MS
 * effective[x] 1..1 MS
 
-
 Instance: ECGBundleBranchBlock
 InstanceOf: ecg-bundle-branch-block
 Usage: #example

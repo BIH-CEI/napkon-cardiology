@@ -40,10 +40,6 @@ Alias: $mii-reference = https://www.medizininformatik-initiative.de/fhir/core/St
 Alias: $mii-observation-lab = https://www.medizininformatik-initiative.de/fhir/core/modul-labor/StructureDefinition/ObservationLab
 Alias: $mii-encounter = https://www.medizininformatik-initiative.de/fhir/core/modul-fall/StructureDefinition/KontaktGesundheitseinrichtung
 
-// Own code systems
-Alias: $nped = https://www.netzwerk-universitaetsmedizin.de/fhir/CodeSystem/napkon-pediatrics-module
-Alias: $nvm = https://www.netzwerk-universitaetsmedizin.de/fhir/CodeSystem/napkon-vaccination-module
-
 // Extensions
 Alias: $ext-data-absent-reason = http://hl7.org/fhir/StructureDefinition/data-absent-reason
 Alias: $ext-condition-dueTo = http://hl7.org/fhir/StructureDefinition/condition-dueTo
