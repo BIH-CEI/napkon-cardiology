@@ -3,7 +3,7 @@
 Akin to the [GECCO Laboratory Value profile](https://simplifier.net/guide/GermanCoronaConsensusDataSet-ImplementationGuide/Laboratoryvalue), the troponin I and T laboratory values
 are supplied via the [MII Laboruntersuchung profile](https://simplifier.net/packages/de.medizininformatikinitiative.kerndatensatz.laborbefund/1.0.6/files/388074).
 
-The [LOINC][LOINC] values that should be used in `Observation.code`can be found in the [LaboratoryTestsGECCO ValueSet](https://simplifier.net/forschungsnetzcovid-19/lab-tests-gecco) and are as follows:
+The [LOINC][LOINC] values that should be used in `Observation.code` can be found in the [LaboratoryTestsGECCO ValueSet](https://simplifier.net/forschungsnetzcovid-19/lab-tests-gecco) and are as follows:
 
 | Code | Description |
 | ---- | ----------- |
@@ -16,3 +16,5 @@ The [LOINC][LOINC] values that should be used in `Observation.code`can be found 
 | [6597-9](https://loinc.org/6597-9) | Troponin T.cardiac [Mass/volume] in Venous blood |
 | [48425-3](https://loinc.org/48425-3) | Troponin T.cardiac [Mass/volume] in Blood |
 {:.grid}
+
+{% include link-list.md %}
