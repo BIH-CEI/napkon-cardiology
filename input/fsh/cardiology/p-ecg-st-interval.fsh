@@ -5,7 +5,7 @@ Parent: Observation
 Id: ecg-st-interval
 Title: "ECG ST Interval"
 Description: "ST interval from electrocardiogram"
-* insert napkon-metadata(2021-11-17, #draft, 0.1.0)
+* insert napkon-metadata(2021-11-17, #active, 1.0.0)
 * insert mii-patient-reference
 * obeys value-or-data-absent-reason
 * bodySite = $sct#80891009 "Heart structure (body structure)"

@@ -5,7 +5,7 @@ Parent: $mii-procedure
 Id: cardiovascular-investigation
 Title: "Cardiovascular investigation"
 Description: "Defines constraints and methods on imaging procedures performed on the patient."
-* insert napkon-metadata(2021-10-02, #draft, 0.1.0)
+* insert napkon-metadata(2021-10-02, #active, 1.0.0)
 * category
   * coding[sct] = $sct#276341003 "Cardiovascular investigation (procedure)"
 * code

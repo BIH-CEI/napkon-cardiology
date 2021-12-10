@@ -4,7 +4,7 @@ ValueSet: EchocardiographyFindingsICD
 Id: echocardiography-findings-icd
 Title: "Echocardiography Findings ICD10 GM"
 Description: "Codes for Echocardiography Findings (ICD10 GM)"
-* insert napkon-metadata(2021-11-24, #draft, 0.1.0)
+* insert napkon-metadata(2021-11-24, #active, 1.0.0)
 
  // Regionale Wandbewegungsstörungen
 * codes from system $icd10-gm where concept is-a #I51.8 "Sonstige ungenau bezeichnete Herzkrankheiten" and child exists false

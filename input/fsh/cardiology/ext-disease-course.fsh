@@ -4,7 +4,7 @@ Extension: DiseaseCourse
 Id: condition-diseaseCourse
 Title: "DiseaseCourse"
 Description: "The clinical course of the disease (how the disease behaves over time), such as acute versus chronic."
-* insert napkon-metadata(2021-11-08, #draft, 0.1.0)
+* insert napkon-metadata(2021-11-08, #active, 1.0.0)
 * . ^short = "The clinical course of the disease"
 * . ^definition = "The clinical course of the disease (how the disease behaves over time), such as acute versus chronic."
 * value[x] 1..

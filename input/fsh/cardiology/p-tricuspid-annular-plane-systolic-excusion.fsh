@@ -5,7 +5,7 @@ Parent: Observation
 Id: tricuspid-annular-plane-systolic-excursion
 Title: "Tricuspid Annular Plane Systolic Excursion"
 Description: "Tricuspid Annular Plane Systolic Excursion in cm"
-* insert napkon-metadata(2021-08-10, #draft, 0.1.0)
+* insert napkon-metadata(2021-08-10, #active, 1.0.0)
 * insert mii-patient-reference
 * obeys value-or-data-absent-reason
 * status MS

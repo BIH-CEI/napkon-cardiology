@@ -5,7 +5,7 @@ Parent: $gecco-base-condition
 Id: chronic-cardiologic-disease
 Title: "Chronic Cardiologic Diseases"
 Description: "Occurrence of Chronic Cardiologic Diseases"
-* insert napkon-metadata(2021-11-03, #draft, 0.1.0)
+* insert napkon-metadata(2021-11-03, #active, 1.0.0)
 * category
   * coding ^slicing.discriminator[0].type = #pattern
   * coding ^slicing.discriminator[0].path = "$this"

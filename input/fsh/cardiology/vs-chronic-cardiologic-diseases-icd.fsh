@@ -4,7 +4,7 @@ ValueSet: ChronicCardiologicDiseasesICD
 Id: chronic-cardiologic-diseases-icd
 Title: "Cardiology Chronic Diseases"
 Description: "Cardiology Chronic Diseases Codes"
-* insert napkon-metadata(2021-11-17, #draft, 0.1.0)
+* insert napkon-metadata(2021-11-17, #active, 1.0.0)
 * codes from system $icd10-gm where concept is-a #I48 "Vorhofflimmern und Vorhofflattern" and child exists false // Vorhofflimmern, Vorhofflattern
 * codes from system $icd10-gm where concept is-a #I50 "Herzinsuffizienz" and child exists false // Herzinsuffizienz
 * codes from system $icd10-gm where concept is-a #I42 "Kardiomyopathie" and child exists false // Kardiomyopathie

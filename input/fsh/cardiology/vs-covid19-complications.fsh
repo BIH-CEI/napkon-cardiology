@@ -4,7 +4,7 @@ ValueSet: COVID19Complications
 Id: covid19-complications
 Title: "COVID19 Complications"
 Description: "Complications of COVID-19"
-* insert napkon-metadata(2021-12-03, #draft, 0.1.0)
+* insert napkon-metadata(2021-12-03, #active, 1.0.0)
 * codes from system $sct where concept is-a #50920009 "Myocarditis (disorder)" // Myokarditis
 * codes from system $sct where concept is-a #27885002 "Complete atrioventricular block (disorder)" // AV-Block III°
 * codes from system $sct where concept is-a #71908006 "Ventricular fibrillation (disorder)" // Kammerflimmern

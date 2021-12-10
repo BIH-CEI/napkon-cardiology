@@ -435,6 +435,6 @@ name: napkoncardiology
 packageId: napkon-cardiology
 publisher: "Charit\xE9 - Universit\xE4tsmedizin Berlin"
 resourceType: ImplementationGuide
-status: draft
+status: active
 url: https://www.napkon.de/fhir/ImplementationGuide/napkon-cardiology
-version: 0.1.0
+version: 1.0.0
