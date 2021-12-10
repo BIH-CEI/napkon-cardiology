@@ -1,0 +1,15 @@
+{% include resource-reference.md name='Complications of COVID-19' %}
+{% include resource-reference.md name='Cardiovascular investigation' %}
+{% include resource-reference.md name='Chronic Cardiologic Diseases' %}
+{% include resource-reference.md name='ECG Atrioventricular Block' %}
+{% include resource-reference.md name='ECG Bundle Branch Block' %}
+{% include resource-reference.md name='ECG Findings' %}
+{% include resource-reference.md name='ECG QRS Axis' %}
+{% include resource-reference.md name='ECG QRS Interval' %}
+{% include resource-reference.md name='ECG QT Interval' %}
+{% include resource-reference.md name='ECG ST Interval' %}
+{% include resource-reference.md name='Echocardiography Findings' %}
+{% include resource-reference.md name='Left Ventricular Ejection Fraction' %}
+{% include resource-reference.md name='Medication Angiotensin Receptor Antagonist' %}
+{% include resource-reference.md name='Tricuspid Annular Plane Systolic Excursion' %}
+{% include resource-reference.md name='DiseaseCourse' %}

@@ -1,0 +1,440 @@
+contact:
+- name: "Charit\xE9 - Universit\xE4tsmedizin Berlin"
+  telecom:
+  - system: url
+    value: https://www.netzwerk-universitaetsmedizin.de
+definition:
+  page:
+    generation: html
+    nameUrl: toc.html
+    page:
+    - generation: markdown
+      nameUrl: index.html
+      title: NAPKON Module Template
+    - generation: markdown
+      nameUrl: profiles.html
+      title: Profiles
+    - generation: markdown
+      nameUrl: codesystems.html
+      title: Code Systems
+    - generation: markdown
+      nameUrl: valuesets.html
+      title: Value Sets
+    - generation: markdown
+      nameUrl: extensions.html
+      title: Extensions
+    - generation: markdown
+      nameUrl: examples.html
+      title: Examples
+    - generation: html
+      nameUrl: downloads.html
+      title: Downloads
+    - generation: markdown
+      nameUrl: changelog.html
+      title: Change Log
+    title: Table of Contents
+  parameter:
+  - code: copyrightyear
+    value: 2021+
+  - code: releaselabel
+    value: ci-build
+  - code: active-tables
+    value: 'true'
+  - code: apply-contact
+    value: 'false'
+  - code: apply-jurisdiction
+    value: 'false'
+  - code: apply-publisher
+    value: 'false'
+  - code: apply-version
+    value: 'false'
+  - code: show-inherited-invariants
+    value: 'false'
+  - code: usage-stats-opt-out
+    value: 'true'
+  - code: excludexml
+    value: 'false'
+  - code: excludejsn
+    value: 'false'
+  - code: excludettl
+    value: 'true'
+  - code: excludemap
+    value: 'true'
+  - code: excludeexample
+    value: 'true'
+  - code: extension-domain
+    value: https://www.netzwerk-universitaetsmedizin.de
+  - code: extension-domain
+    value: https://napkon.de
+  - code: extension-domain
+    value: https://simplifier.net
+  resource:
+  - description: Complications in the context of COVID-19
+    exampleBoolean: false
+    name: Complications of COVID-19
+    reference:
+      reference: StructureDefinition/complications-covid19
+  - description: Defines constraints and methods on imaging procedures performed on
+      the patient.
+    exampleBoolean: false
+    name: Cardiovascular investigation
+    reference:
+      reference: StructureDefinition/cardiovascular-investigation
+  - description: Occurrence of Chronic Cardiologic Diseases
+    exampleBoolean: false
+    name: Chronic Cardiologic Diseases
+    reference:
+      reference: StructureDefinition/chronic-cardiologic-disease
+  - description: Atrioventricular block finding from electrocardiogram
+    exampleBoolean: false
+    name: ECG Atrioventricular Block
+    reference:
+      reference: StructureDefinition/ecg-atrioventricular-block
+  - description: Bundle branch block findings from electrocardiogram
+    exampleBoolean: false
+    name: ECG Bundle Branch Block
+    reference:
+      reference: StructureDefinition/ecg-bundle-branch-block
+  - description: Other findings from electrocardiogram
+    exampleBoolean: false
+    name: ECG Findings
+    reference:
+      reference: StructureDefinition/ecg-findings
+  - description: QRS Axis orientiation from electrocardiogram
+    exampleBoolean: false
+    name: ECG QRS Axis
+    reference:
+      reference: StructureDefinition/ecg-qrs-axis
+  - description: QRS interval from electrocardiogram
+    exampleBoolean: false
+    name: ECG QRS Interval
+    reference:
+      reference: StructureDefinition/ecg-qrs-interval
+  - description: QT Interval duration from electrocardiogram
+    exampleBoolean: false
+    name: ECG QT Interval
+    reference:
+      reference: StructureDefinition/ecg-qt-interval
+  - description: ST interval from electrocardiogram
+    exampleBoolean: false
+    name: ECG ST Interval
+    reference:
+      reference: StructureDefinition/ecg-st-interval
+  - description: Findings from echocardiography
+    exampleBoolean: false
+    name: Echocardiography Findings
+    reference:
+      reference: StructureDefinition/echocardiography-findings
+  - description: Left Ventricular Ejection Fraction in %
+    exampleBoolean: false
+    name: Left Ventricular Ejection Fraction
+    reference:
+      reference: StructureDefinition/left-ventricular-ejection-fraction
+  - description: Medication requirements in the context of cardiology module
+    exampleBoolean: false
+    name: Medication Angiotensin Receptor Antagonist
+    reference:
+      reference: StructureDefinition/medication-angiotensin-receptor-antagonist
+  - description: Tricuspid Annular Plane Systolic Excursion in cm
+    exampleBoolean: false
+    name: Tricuspid Annular Plane Systolic Excursion
+    reference:
+      reference: StructureDefinition/tricuspid-annular-plane-systolic-excursion
+  - description: The clinical course of the disease (how the disease behaves over
+      time), such as acute versus chronic.
+    exampleBoolean: false
+    name: DiseaseCourse
+    reference:
+      reference: StructureDefinition/condition-diseaseCourse
+  - description: Complications of COVID-19
+    exampleBoolean: false
+    name: COVID19 Complications
+    reference:
+      reference: ValueSet/covid19-complications
+  - description: Imaging procedures related to cardiology
+    exampleBoolean: false
+    name: Cardiology Imaging Procedures ValueSet
+    reference:
+      reference: ValueSet/cardiology-imaging-procedures
+  - description: Cardiology Chronic Diseases Codes
+    exampleBoolean: false
+    name: Cardiology Chronic Diseases
+    reference:
+      reference: ValueSet/chronic-cardiologic-diseases-icd
+  - description: Cardiology Chronic Diseases Codes
+    exampleBoolean: false
+    name: Cardiology Chronic Diseases
+    reference:
+      reference: ValueSet/chronic-cardiologic-diseases-sct
+  - description: Value set for clinical course of a disease (how the disease behaves
+      over time).
+    exampleBoolean: false
+    name: Condition Course Codes
+    reference:
+      reference: ValueSet/condition-course
+  - description: Values for laboratory observations
+    exampleBoolean: false
+    name: Detected Not Detected Unknown Undetermined
+    reference:
+      reference: ValueSet/detected-not-detected-unknown-undetermined
+  - description: Atrioventricular block gradings
+    exampleBoolean: false
+    name: ECG Atrioventricular Block
+    reference:
+      reference: ValueSet/ecg-atrioventricular-block
+  - description: Bundle branch block types
+    exampleBoolean: false
+    name: ECG Bundle Branch Block
+    reference:
+      reference: ValueSet/ecg-bundle-branch-block
+  - description: Other findings from electrocardiogram
+    exampleBoolean: false
+    name: ECG Findings
+    reference:
+      reference: ValueSet/ecg-findings
+  - description: QRS axis orientation types
+    exampleBoolean: false
+    name: ECG QRS Axis
+    reference:
+      reference: ValueSet/ecg-qrs-axis
+  - description: QRS interval findings
+    exampleBoolean: false
+    name: ECG QRS Interval
+    reference:
+      reference: ValueSet/ecg-qrs-interval
+  - description: QT interval findings
+    exampleBoolean: false
+    name: ECG QT Interval
+    reference:
+      reference: ValueSet/ecg-qt-interval
+  - description: ST Interval findings
+    exampleBoolean: false
+    name: ECG ST Interval
+    reference:
+      reference: ValueSet/ecg-st-interval
+  - description: Codes for Echocardiography Findings
+    exampleBoolean: false
+    name: Echocardiography Findings
+    reference:
+      reference: ValueSet/echocardiography-findings
+  - description: Codes for Echocardiography Findings (ICD10 GM)
+    exampleBoolean: false
+    name: Echocardiography Findings ICD10 GM
+    reference:
+      reference: ValueSet/echocardiography-findings-icd
+  - description: Interpretation of left ventricular ejection fraction
+    exampleBoolean: false
+    name: LVEF Interpretation
+    reference:
+      reference: ValueSet/lvef-interpretation
+  - description: Angiotensin II receptor antagonist in the context of cardiology module
+      (SNOMED CT codes)
+    exampleBoolean: false
+    name: Angiotensin II receptor antagonist
+    reference:
+      reference: ValueSet/medication-angiotensin-receptor-antagonist
+  - description: Angiotensin II receptor antagonist in the context of cardiology module
+      (ATC DE codes)
+    exampleBoolean: false
+    name: Angiotensin II Receptor Antagonist
+    reference:
+      reference: ValueSet/medication-angiotensin-receptor-antagonist-atc
+  - description: Values for laboratory observations
+    exampleBoolean: false
+    name: Present Not Present Undetermined Other
+    reference:
+      reference: ValueSet/present-not-present-undetermined-other
+  - description: EventStatus value set restricted to codes not-done, active, completed
+      and unknown
+    exampleBoolean: false
+    name: RestrictedEventStatus
+    reference:
+      reference: ValueSet/restricted-event-status
+  - description: Yes / No / Unknown
+    exampleBoolean: false
+    name: Yes No Unknown
+    reference:
+      reference: ValueSet/yes-no-unknown
+  - description: NAPKON Cardiology Module Code System - Collection of cardiology module-specific
+      codes that are missing from common terminologies such as SNOMED CT
+    exampleBoolean: false
+    name: Napkon Cardiology
+    reference:
+      reference: CodeSystem/napkon-cardiology
+  - description: 'Example: Unknown status (presence) of Atrial ectopics'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-findings
+    name: Atrial Ectopics Unknown
+    reference:
+      reference: Observation/AtrialEctopicsUnknown
+  - description: 'Example: Unknown status (presence) of a Bacterial Respiratory Infection'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/complications-covid19
+    name: Bacterial Respiratory Infection Unknown
+    reference:
+      reference: Condition/BacterialRespiratoryInfectionUnknown
+  - description: 'Example: Cardiogenic shock refuted'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/complications-covid19
+    name: Cardiogenic shock Refuted
+    reference:
+      reference: Condition/CardiogenicShockRefuted
+  - description: Example of a Cardiovascular Investigation
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/cardiovascular-investigation
+    name: Cardiovascular Investigation
+    reference:
+      reference: Procedure/CardiovascularInvestigation
+  - description: 'Example: Atrioventricular block (complete = grade III) confirmed'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-atrioventricular-block
+    name: ECG Atrioventricular Block Confirmed
+    reference:
+      reference: Observation/ECGAtrioventricularBlockConfirmed
+  - description: 'Example: Atrioventricular block refuted'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-atrioventricular-block
+    name: ECG Atrioventricular Block Refuted
+    reference:
+      reference: Observation/ECGAtrioventricularBlockRefuted
+  - description: 'Example: Unknown status (presence) of an atrioventricular block'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-atrioventricular-block
+    name: ECG Atrioventricular Block Unknown
+    reference:
+      reference: Observation/ECGAtrioventricularBlockUnknown
+  - description: 'Example: Complete left bundle branch block'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-bundle-branch-block
+    name: ECG Bundle Branch Block
+    reference:
+      reference: Observation/ECGBundleBranchBlock
+  - description: 'Example: No bundle branch block'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-bundle-branch-block
+    name: ECG No Bundle Branch Block
+    reference:
+      reference: Observation/ECGNoBundleBranchBlock
+  - description: 'Example: Unknown status (presence) of a bundle branch block'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-bundle-branch-block
+    name: ECG Bundle Branch Block Unknown
+    reference:
+      reference: Observation/ECGNoBundleBranchBlockUnknown
+  - description: 'Example: QRS Axis steep type'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-qrs-axis
+    name: ECG QRS Axis
+    reference:
+      reference: Observation/ECGQRSAxis
+  - description: 'Example: Wide QRS complex'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-qrs-interval
+    name: ECG QRS Interval
+    reference:
+      reference: Observation/ECGQRSInterval
+  - description: 'Example: Normal QT interval'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-qt-interval
+    name: ECG QT Interval
+    reference:
+      reference: Observation/ECGQTInterval
+  - description: 'Example: ST segment elevation'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-st-interval
+    name: ECG ST Interval
+    reference:
+      reference: Observation/ECGSTInterval
+  - description: Example patient to be used as reference in other instances
+    exampleBoolean: true
+    name: ExamplePatient
+    reference:
+      reference: Patient/ExamplePatient
+  - description: 'Example: Inverted T Wave refuted'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-findings
+    name: Inverted T Wave Refuted
+    reference:
+      reference: Observation/InvertedTWaveRefuted
+  - description: Example of profile medication-angiotensin-receptor-antagonist in
+      the context of cardiology module
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/medication-angiotensin-receptor-antagonist
+    name: Medication Angiotensin Receptor Antagonist
+    reference:
+      reference: MedicationStatement/MedicationAngiotensinReceptorAntagonistATC
+  - description: Example of profile medication-angiotensin-receptor-antagonist in
+      the context of cardiology module
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/medication-angiotensin-receptor-antagonist
+    name: Medication Angiotensin Receptor Antagonist
+    reference:
+      reference: MedicationStatement/MedicationAngiotensinReceptorAntagonistSCT
+  - description: 'Example: Myocarditis confirmed'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/complications-covid19
+    name: Myocarditis Confirmed
+    reference:
+      reference: Condition/MyocarditisConfirmed
+  - description: 'Example: Sinus Rhythm Confirmed'
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/ecg-findings
+    name: Sinus Rhythm Confirmed
+    reference:
+      reference: Observation/SinusRhythmConfirmed
+  - description: Chronical Cardiological Diseases
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/chronic-cardiologic-disease
+    name: chronic-cardiologic-diseases-instance
+    reference:
+      reference: Condition/chronic-cardiologic-diseases-instance
+  - description: Example of a confirmed finding from echocardiography
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings
+    name: Echocardiography finding - confirmed
+    reference:
+      reference: Condition/echo-finding-confirmed
+  - description: Example of a confirmed finding from echocardiography
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings
+    name: Echocardiography finding - confirmed (ICD10 GM code)
+    reference:
+      reference: Condition/echo-finding-confirmed-icd-snomed
+  - description: Example of a refuted finding from echocardiography
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings
+    name: Echocardiography finding - refuted
+    reference:
+      reference: Condition/echo-finding-refuted
+  - description: Example of a finding from echocardiography of which the presence
+      is unknown
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings
+    name: Echocardiography finding - unknown
+    reference:
+      reference: Condition/echo-finding-uncertain
+  - description: Example of left ventricular ejection fraction
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/left-ventricular-ejection-fraction
+    name: Example of a left ventricular ejection fraction observation
+    reference:
+      reference: Observation/left-ventricular-ejection-fraction
+  - description: Example of tricuspid annular plane systolic excursion
+    exampleCanonical: https://www.napkon.de/fhir/StructureDefinition/tricuspid-annular-plane-systolic-excursion
+    name: Example of a tricuspid annular plane systolic excursion observation
+    reference:
+      reference: Observation/tricuspid-annular-plane-systolic-excursion
+dependsOn:
+- id: de_medizininformatikinitiative_kerndatensatz_prozedur
+  packageId: de.medizininformatikinitiative.kerndatensatz.prozedur
+  uri: https://simplifier.net/guide/medizininformatikinitiative-modulprozeduren-implementationguide
+  version: 2.0.0-alpha3
+- id: de_medizininformatikinitiative_kerndatensatz_person
+  packageId: de.medizininformatikinitiative.kerndatensatz.person
+  uri: https://simplifier.net/guide/medizininformatikinitiative-modulperson-implementationguide
+  version: 2.0.0-alpha3
+- id: de_medizininformatikinitiative_kerndatensatz_medikation
+  packageId: de.medizininformatikinitiative.kerndatensatz.medikation
+  uri: https://simplifier.net/guide/medizininformatikinitiative-modulmedikation-implementationguide
+  version: 1.0.10
+- id: de_medizininformatikinitiative_kerndatensatz_diagnose
+  packageId: de.medizininformatikinitiative.kerndatensatz.diagnose
+  uri: https://simplifier.net/guide/medizininformatikinitiative-moduldiagnosen-implementationguide
+  version: 2.0.0-alpha3
+- id: de_medizininformatikinitiative_kerndatensatz_laborbefund
+  packageId: de.medizininformatikinitiative.kerndatensatz.laborbefund
+  uri: https://simplifier.net/guide/laborbefundindermedizininformatik-initiative
+  version: 1.0.6
+- id: de_gecco
+  packageId: de.gecco
+  uri: https://simplifier.net/guide/germancoronaconsensusdataset-implementationguide
+  version: 1.0.5
+- id: de_medizininformatikinitiative_kerndatensatz_meta
+  packageId: de.medizininformatikinitiative.kerndatensatz.meta
+  uri: https://simplifier.net/guide/medizininformatikinitiative-implementationguide-manteldokument
+  version: 1.0.3
+fhirVersion:
+- 4.0.1
+id: napkon-cardiology
+name: napkoncardiology
+packageId: napkon-cardiology
+publisher: "Charit\xE9 - Universit\xE4tsmedizin Berlin"
+resourceType: ImplementationGuide
+status: draft
+url: https://www.napkon.de/fhir/ImplementationGuide/napkon-cardiology
+version: 0.1.0
