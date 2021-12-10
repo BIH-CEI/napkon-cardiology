@@ -3,266 +3,266 @@
     "id": "napkon-cardiology",
     "type": "CodeSystem",
     "url": "https://www.napkon.de/fhir/CodeSystem/napkon-cardiology",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "NapkonCardiology"
   },
   {
     "id": "napkon-cardiology",
     "type": "ImplementationGuide",
     "url": "https://www.napkon.de/fhir/ImplementationGuide/napkon-cardiology",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "napkoncardiology"
   },
   {
     "id": "cardiovascular-investigation",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/cardiovascular-investigation",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CardiovascularInvestigation"
   },
   {
     "id": "chronic-cardiologic-disease",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/chronic-cardiologic-disease",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ChronicCardiologicDisease"
   },
   {
     "id": "complications-covid19",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/complications-covid19",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "COVID19Complications"
   },
   {
     "id": "condition-diseaseCourse",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/condition-diseaseCourse",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "DiseaseCourse"
   },
   {
     "id": "ecg-atrioventricular-block",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/ecg-atrioventricular-block",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGAtrioventricularBlock"
   },
   {
     "id": "ecg-bundle-branch-block",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/ecg-bundle-branch-block",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGBundleBranchBlock"
   },
   {
     "id": "ecg-findings",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/ecg-findings",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGFindings"
   },
   {
     "id": "ecg-qrs-axis",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/ecg-qrs-axis",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGQRSAxis"
   },
   {
     "id": "ecg-qrs-interval",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/ecg-qrs-interval",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGQRSInterval"
   },
   {
     "id": "ecg-qt-interval",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/ecg-qt-interval",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGQTInterval"
   },
   {
     "id": "ecg-st-interval",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/ecg-st-interval",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGSTInterval"
   },
   {
     "id": "echocardiography-findings",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "EchocardiographyFindings"
   },
   {
     "id": "left-ventricular-ejection-fraction",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/left-ventricular-ejection-fraction",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "LeftVentricularEjectionFraction"
   },
   {
     "id": "medication-angiotensin-receptor-antagonist",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/medication-angiotensin-receptor-antagonist",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "MedicationAngiotensinReceptorAntagonist"
   },
   {
     "id": "tricuspid-annular-plane-systolic-excursion",
     "type": "StructureDefinition",
     "url": "https://www.napkon.de/fhir/StructureDefinition/tricuspid-annular-plane-systolic-excursion",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "TricuspidAnnularPlaneSystolicExcursion"
   },
   {
     "id": "cardiology-imaging-procedures",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/cardiology-imaging-procedures",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "CardiologyImagingCodes"
   },
   {
     "id": "chronic-cardiologic-diseases-icd",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/chronic-cardiologic-diseases-icd",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ChronicCardiologicDiseasesICD"
   },
   {
     "id": "chronic-cardiologic-diseases-sct",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/chronic-cardiologic-diseases-sct",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ChronicCardiologicDiseasesSCT"
   },
   {
     "id": "condition-course",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/condition-course",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ConditionCourseCodes"
   },
   {
     "id": "covid19-complications",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/covid19-complications",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "COVID19Complications"
   },
   {
     "id": "detected-not-detected-unknown-undetermined",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/detected-not-detected-unknown-undetermined",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "DetectedNotDetectedUnknownUndetermined"
   },
   {
     "id": "ecg-atrioventricular-block",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/ecg-atrioventricular-block",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGAtrioventricularBlock"
   },
   {
     "id": "ecg-bundle-branch-block",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/ecg-bundle-branch-block",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGBundleBranchBlock"
   },
   {
     "id": "ecg-findings",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/ecg-findings",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGFindings"
   },
   {
     "id": "ecg-qrs-axis",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/ecg-qrs-axis",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGQRSAxis"
   },
   {
     "id": "ecg-qrs-interval",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/ecg-qrs-interval",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGQRSInterval"
   },
   {
     "id": "ecg-qt-interval",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/ecg-qt-interval",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGQTInterval"
   },
   {
     "id": "ecg-st-interval",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/ecg-st-interval",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "ECGSTInterval"
   },
   {
     "id": "echocardiography-findings",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/echocardiography-findings",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "EchocardiographyFindings"
   },
   {
     "id": "echocardiography-findings-icd",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/echocardiography-findings-icd",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "EchocardiographyFindingsICD"
   },
   {
     "id": "lvef-interpretation",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/lvef-interpretation",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "LVEFInterpretation"
   },
   {
     "id": "medication-angiotensin-receptor-antagonist",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/medication-angiotensin-receptor-antagonist",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "MedicationAngiotensinReceptorAntagonist"
   },
   {
     "id": "medication-angiotensin-receptor-antagonist-atc",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/medication-angiotensin-receptor-antagonist-atc",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "MedicationAngiotensinReceptorAntagonistATC"
   },
   {
     "id": "present-not-present-undetermined-other",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/present-not-present-undetermined-other",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "PresentNotPresentUndeterminedOther"
   },
   {
     "id": "restricted-event-status",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/restricted-event-status",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "RestrictedEventStatus"
   },
   {
     "id": "yes-no-unknown",
     "type": "ValueSet",
     "url": "https://www.napkon.de/fhir/ValueSet/yes-no-unknown",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "name": "YesNoUnknown"
   }
 ]

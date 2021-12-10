@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>napkoncardiology</h2><p>The official URL for this implementation guide is: </p><pre>https://www.napkon.de/fhir/ImplementationGuide/napkon-cardiology</pre></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "https://www.napkon.de/fhir/ImplementationGuide/napkon-cardiology"];
-  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
+  fhir:ImplementationGuide.version [ fhir:value "1.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "napkoncardiology"];
   fhir:ImplementationGuide.title [ fhir:value "NAPKON Cardiology Module"];
-  fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-12-10T10:44:55+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.status [ fhir:value "active"];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-10T11:46:25+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;

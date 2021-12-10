@@ -16,10 +16,10 @@
     }
   ],
   "url": "https://www.napkon.de/fhir/StructureDefinition/ecg-qrs-interval",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "ECGQRSInterval",
   "title": "ECG QRS Interval",
-  "status": "draft",
+  "status": "active",
   "date": "2021-11-17",
   "publisher": "Charité - Universitätsmedizin Berlin",
   "contact": [

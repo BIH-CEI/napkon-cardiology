@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  96308008 (Product containing angiotensin II receptor antagonist (product))</li></ul></div>"
   },
   "url": "https://www.napkon.de/fhir/ValueSet/medication-angiotensin-receptor-antagonist",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "MedicationAngiotensinReceptorAntagonist",
   "title": "Angiotensin II receptor antagonist",
-  "status": "draft",
+  "status": "active",
   "date": "2021-11-04",
   "publisher": "Charité - Universitätsmedizin Berlin",
   "contact": [

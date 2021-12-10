@@ -16,10 +16,10 @@
     }
   ],
   "url": "https://www.napkon.de/fhir/StructureDefinition/ecg-atrioventricular-block",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "ECGAtrioventricularBlock",
   "title": "ECG Atrioventricular Block",
-  "status": "draft",
+  "status": "active",
   "date": "2021-11-17",
   "publisher": "Charité - Universitätsmedizin Berlin",
   "contact": [

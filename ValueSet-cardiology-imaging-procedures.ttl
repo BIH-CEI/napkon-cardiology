@@ -13,10 +13,10 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  268400002 (12 lead ECG)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  40701008 (Echocardiography)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  433236007 (Transthoracic echocardiography (procedure))</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  105376000 (Transesophageal echocardiography)</li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://www.napkon.de/fhir/ValueSet/cardiology-imaging-procedures"];
-  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.version [ fhir:value "1.0.0"];
   fhir:ValueSet.name [ fhir:value "CardiologyImagingCodes"];
   fhir:ValueSet.title [ fhir:value "Cardiology Imaging Procedures ValueSet"];
-  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.status [ fhir:value "active"];
   fhir:ValueSet.date [ fhir:value "2021-09-24"^^xsd:date];
   fhir:ValueSet.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
   fhir:ValueSet.contact [

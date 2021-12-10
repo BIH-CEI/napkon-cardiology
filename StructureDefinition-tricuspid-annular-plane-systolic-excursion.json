@@ -16,10 +16,10 @@
     }
   ],
   "url": "https://www.napkon.de/fhir/StructureDefinition/tricuspid-annular-plane-systolic-excursion",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "TricuspidAnnularPlaneSystolicExcursion",
   "title": "Tricuspid Annular Plane Systolic Excursion",
-  "status": "draft",
+  "status": "active",
   "date": "2021-08-10",
   "publisher": "Charité - Universitätsmedizin Berlin",
   "contact": [

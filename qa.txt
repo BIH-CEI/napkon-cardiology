@@ -3,7 +3,7 @@
 
 err = 11, warn = 22, info = 2
 IG Publisher Version: 1.1.83 Out of date - current version is 1.1.90
-Generated Fri Dec 10 11:05:01 UTC 2021. FHIR version 4.0.1 for napkon-cardiology#0.1.0 (canonical = https://www.napkon.de/fhir)
+Generated Fri Dec 10 11:54:45 UTC 2021. FHIR version 4.0.1 for napkon-cardiology#1.0.0 (canonical = https://www.napkon.de/fhir)
  Build Errors : 514 / 7 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-napkon-cardiology : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Condition-BacterialRespiratoryInfectionUnknown : 0 / 0 / 1

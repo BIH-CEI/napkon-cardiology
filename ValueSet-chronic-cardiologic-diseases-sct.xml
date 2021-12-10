@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  49436004 (Atrial fibrillation)</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  5370000 (Atrial flutter)</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  399261000 (Past history of coronary artery bypass grafting)</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  84114007 (Heart failure)</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  85898001 (Cardiomyopathy)</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  13213009 (Congenital heart disease)</li></ul></div>
   </text>
   <url value="https://www.napkon.de/fhir/ValueSet/chronic-cardiologic-diseases-sct"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="ChronicCardiologicDiseasesSCT"/>
   <title value="Cardiology Chronic Diseases"/>
-  <status value="draft"/>
+  <status value="active"/>
   <date value="2021-11-17"/>
   <publisher value="Charité - Universitätsmedizin Berlin"/>
   <contact>

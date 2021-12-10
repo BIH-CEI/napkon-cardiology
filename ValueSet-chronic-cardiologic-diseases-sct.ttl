@@ -13,10 +13,10 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  49436004 (Atrial fibrillation)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  5370000 (Atrial flutter)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  399261000 (Past history of coronary artery bypass grafting)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  84114007 (Heart failure)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  85898001 (Cardiomyopathy)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  13213009 (Congenital heart disease)</li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://www.napkon.de/fhir/ValueSet/chronic-cardiologic-diseases-sct"];
-  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.version [ fhir:value "1.0.0"];
   fhir:ValueSet.name [ fhir:value "ChronicCardiologicDiseasesSCT"];
   fhir:ValueSet.title [ fhir:value "Cardiology Chronic Diseases"];
-  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.status [ fhir:value "active"];
   fhir:ValueSet.date [ fhir:value "2021-11-17"^^xsd:date];
   fhir:ValueSet.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
   fhir:ValueSet.contact [

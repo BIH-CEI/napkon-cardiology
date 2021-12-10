@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  268400002 (12 lead ECG)</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  40701008 (Echocardiography)</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  433236007 (Transthoracic echocardiography (procedure))</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  105376000 (Transesophageal echocardiography)</li></ul></div>
   </text>
   <url value="https://www.napkon.de/fhir/ValueSet/cardiology-imaging-procedures"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="CardiologyImagingCodes"/>
   <title value="Cardiology Imaging Procedures ValueSet"/>
-  <status value="draft"/>
+  <status value="active"/>
   <date value="2021-09-24"/>
   <publisher value="Charité - Universitätsmedizin Berlin"/>
   <contact>

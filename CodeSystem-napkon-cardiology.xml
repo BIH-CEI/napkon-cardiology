@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://www.napkon.de/fhir/CodeSystem/napkon-cardiology defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-overturned-left-type<a name="napkon-cardiology-ecg-qrs-axis-overturned-left-type"> </a></td><td>ECG: QRS axis overturned left type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-left-type<a name="napkon-cardiology-ecg-qrs-axis-left-type"> </a></td><td>ECG: QRS axis left type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-indifferent-type<a name="napkon-cardiology-ecg-qrs-axis-indifferent-type"> </a></td><td>ECG: QRS axis indifferent type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-steep-type<a name="napkon-cardiology-ecg-qrs-axis-steep-type"> </a></td><td>ECG: QRS axis steep type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-right-type<a name="napkon-cardiology-ecg-qrs-axis-right-type"> </a></td><td>ECG: QRS axis right type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-overturned-right-type<a name="napkon-cardiology-ecg-qrs-axis-overturned-right-type"> </a></td><td>ECG: QRS axis overturned right type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-si-sii-siii-type<a name="napkon-cardiology-ecg-qrs-axis-si-sii-siii-type"> </a></td><td>ECG: QRS axis S(I)S(II)S(III) type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-si-qiii-type<a name="napkon-cardiology-ecg-qrs-axis-si-qiii-type"> </a></td><td>ECG: QRS axis S(I)Q(III) type</td></tr><tr><td style="white-space:nowrap">ecg-bundle-branch-block<a name="napkon-cardiology-ecg-bundle-branch-block"> </a></td><td>ECG: Bundle branch block</td></tr></table></div>
   </text>
   <url value="https://www.napkon.de/fhir/CodeSystem/napkon-cardiology"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="NapkonCardiology"/>
   <title value="Napkon Cardiology"/>
-  <status value="draft"/>
+  <status value="active"/>
   <date value="2021-11-17"/>
   <publisher value="Charité - Universitätsmedizin Berlin"/>
   <contact>

@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-napkon-cardiology.html\"><code>https://www.napkon.de/fhir/CodeSystem/napkon-cardiology</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-overturned-left-type\">ecg-qrs-axis-overturned-left-type</a></td><td>ECG: QRS axis overturned left type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-left-type\">ecg-qrs-axis-left-type</a></td><td>ECG: QRS axis left type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-indifferent-type\">ecg-qrs-axis-indifferent-type</a></td><td>ECG: QRS axis indifferent type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-steep-type\">ecg-qrs-axis-steep-type</a></td><td>ECG: QRS axis steep type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-right-type\">ecg-qrs-axis-right-type</a></td><td>ECG: QRS axis right type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-overturned-right-type\">ecg-qrs-axis-overturned-right-type</a></td><td>ECG: QRS axis overturned right type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-si-sii-siii-type\">ecg-qrs-axis-si-sii-siii-type</a></td><td>ECG: QRS axis S(I)S(II)S(III) type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-si-qiii-type\">ecg-qrs-axis-si-qiii-type</a></td><td>ECG: QRS axis S(I)Q(III) type</td></tr></table></li></ul></div>"
   },
   "url": "https://www.napkon.de/fhir/ValueSet/ecg-qrs-axis",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "ECGQRSAxis",
   "title": "ECG QRS Axis",
-  "status": "draft",
+  "status": "active",
   "date": "2021-11-17",
   "publisher": "Charité - Universitätsmedizin Berlin",
   "contact": [

@@ -13,10 +13,10 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/atc</code> where concept  is-a  <a href=\"?ngen-14?.html#CodeSystemATC2021-C09C\">C09C</a></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://www.napkon.de/fhir/ValueSet/medication-angiotensin-receptor-antagonist-atc"];
-  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.version [ fhir:value "1.0.0"];
   fhir:ValueSet.name [ fhir:value "MedicationAngiotensinReceptorAntagonistATC"];
   fhir:ValueSet.title [ fhir:value "Angiotensin II Receptor Antagonist"];
-  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.status [ fhir:value "active"];
   fhir:ValueSet.date [ fhir:value "2021-11-04"^^xsd:date];
   fhir:ValueSet.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
   fhir:ValueSet.contact [

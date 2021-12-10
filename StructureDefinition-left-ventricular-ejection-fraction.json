@@ -16,10 +16,10 @@
     }
   ],
   "url": "https://www.napkon.de/fhir/StructureDefinition/left-ventricular-ejection-fraction",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "LeftVentricularEjectionFraction",
   "title": "Left Ventricular Ejection Fraction",
-  "status": "draft",
+  "status": "active",
   "date": "2021-08-10",
   "publisher": "Charité - Universitätsmedizin Berlin",
   "contact": [

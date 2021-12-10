@@ -23,10 +23,10 @@
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
   fhir:StructureDefinition.url [ fhir:value "https://www.napkon.de/fhir/StructureDefinition/ecg-qrs-interval"];
-  fhir:StructureDefinition.version [ fhir:value "0.1.0"];
+  fhir:StructureDefinition.version [ fhir:value "1.0.0"];
   fhir:StructureDefinition.name [ fhir:value "ECGQRSInterval"];
   fhir:StructureDefinition.title [ fhir:value "ECG QRS Interval"];
-  fhir:StructureDefinition.status [ fhir:value "draft"];
+  fhir:StructureDefinition.status [ fhir:value "active"];
   fhir:StructureDefinition.date [ fhir:value "2021-11-17"^^xsd:date];
   fhir:StructureDefinition.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
   fhir:StructureDefinition.contact [

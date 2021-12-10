@@ -35,10 +35,10 @@
     <valueCode value="patient"/>
   </extension>
   <url value="https://www.napkon.de/fhir/StructureDefinition/tricuspid-annular-plane-systolic-excursion"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="TricuspidAnnularPlaneSystolicExcursion"/>
   <title value="Tricuspid Annular Plane Systolic Excursion"/>
-  <status value="draft"/>
+  <status value="active"/>
   <date value="2021-08-10"/>
   <publisher value="Charité - Universitätsmedizin Berlin"/>
   <contact>

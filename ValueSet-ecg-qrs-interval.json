@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=164950005\">164950005</a></td><td>Electrocardiogram: QRS complex normal (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=991002\">991002</a></td><td>Wide QRS complex (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=28630001\">28630001</a></td><td>Narrow QRS complex (finding)</td></tr></table></li></ul></div>"
   },
   "url": "https://www.napkon.de/fhir/ValueSet/ecg-qrs-interval",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "name": "ECGQRSInterval",
   "title": "ECG QRS Interval",
-  "status": "draft",
+  "status": "active",
   "date": "2021-11-17",
   "publisher": "Charité - Universitätsmedizin Berlin",
   "contact": [

@@ -25,10 +25,10 @@
     <valueCode value="patient"/>
   </extension>
   <url value="https://www.napkon.de/fhir/StructureDefinition/ecg-bundle-branch-block"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="ECGBundleBranchBlock"/>
   <title value="ECG Bundle Branch Block"/>
-  <status value="draft"/>
+  <status value="active"/>
   <date value="2021-11-17"/>
   <publisher value="Charité - Universitätsmedizin Berlin"/>
   <contact>
