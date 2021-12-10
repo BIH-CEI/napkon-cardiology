@@ -5,7 +5,7 @@ Parent: $mii-medication-statement
 Id: medication-angiotensin-receptor-antagonist
 Title: "Medication Angiotensin Receptor Antagonist"
 Description: "Medication requirements in the context of cardiology module"
-* insert napkon-metadata(2021-11-04, #draft, 0.1.0)
+* insert napkon-metadata(2021-11-04, #active, 1.0.0)
 * medication[x] only CodeableConcept
 * medicationCodeableConcept
   * coding ^slicing.discriminator[0].type = #pattern

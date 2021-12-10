@@ -4,7 +4,7 @@ ValueSet: ECGQRSAxis
 Id: ecg-qrs-axis
 Title: "ECG QRS Axis"
 Description: "QRS axis orientation types"
-* insert napkon-metadata(2021-11-17, #draft, 0.1.0)
+* insert napkon-metadata(2021-11-17, #active, 1.0.0)
 * $ncard#ecg-qrs-axis-overturned-left-type "ECG: QRS axis overturned left type" // Überdrehter Linkstyp
 * $ncard#ecg-qrs-axis-left-type "ECG: QRS axis left type" // Linkstyp
 * $ncard#ecg-qrs-axis-indifferent-type "ECG: QRS axis indifferent type" // Indifferenztyp

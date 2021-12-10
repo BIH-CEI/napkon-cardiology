@@ -5,7 +5,7 @@ Parent: $gecco-base-condition
 Id: echocardiography-findings
 Title: "Echocardiography Findings"
 Description: "Findings from echocardiography"
-* insert napkon-metadata(2021-11-03, #draft, 0.1.0)
+* insert napkon-metadata(2021-11-03, #active, 1.0.0)
 * extension contains condition-diseaseCourse named diseaseCourse 0..1 MS
 * category
   * coding ^slicing.discriminator[0].type = #pattern

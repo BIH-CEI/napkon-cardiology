@@ -4,7 +4,7 @@ ValueSet: EchocardiographyFindings
 Id: echocardiography-findings
 Title: "Echocardiography Findings"
 Description: "Codes for Echocardiography Findings"
-* insert napkon-metadata(2021-11-17, #draft, 0.1.0)
+* insert napkon-metadata(2021-11-17, #active, 1.0.0)
  // Regionale Wandbewegungsstörungen
 * codes from system $sct where concept is-a #61932003 "Paradoxical cardiac wall motion (finding)"
 * codes from system $sct where concept is-a #429750003 "Left ventricular wall motion abnormality (finding)"

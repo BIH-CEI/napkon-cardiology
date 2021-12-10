@@ -5,7 +5,7 @@ Parent: Observation
 Id: left-ventricular-ejection-fraction
 Title: "Left Ventricular Ejection Fraction"
 Description: "Left Ventricular Ejection Fraction in %"
-* insert napkon-metadata(2021-08-10, #draft, 0.1.0)
+* insert napkon-metadata(2021-08-10, #active, 1.0.0)
 * insert mii-patient-reference
 * obeys value-or-data-absent-reason
 * status MS

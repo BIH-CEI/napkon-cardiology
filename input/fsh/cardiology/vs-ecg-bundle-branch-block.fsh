@@ -4,7 +4,7 @@ ValueSet: ECGBundleBranchBlock
 Id: ecg-bundle-branch-block
 Title: "ECG Bundle Branch Block"
 Description: "Bundle branch block types"
-* insert napkon-metadata(2021-11-17, #draft, 0.1.0)
+* insert napkon-metadata(2021-11-17, #active, 1.0.0)
 * $sct#713427006 "Electrocardiographic complete right bundle branch block (finding)" // Kompletter Rechtsschenkelblock
 * $sct#733534002 "Electrocardiographic complete left bundle branch block (finding)" // Kompletter Linksschenkelblock
 * $sct#445118002 "Left anterior fascicular block on electrocardiogram (finding)" // Linksanteriorer Hemiblock

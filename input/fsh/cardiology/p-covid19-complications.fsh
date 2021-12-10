@@ -5,7 +5,7 @@ Parent: $gecco-base-condition
 Id: complications-covid19
 Title: "Complications of COVID-19"
 Description: "Complications in the context of COVID-19"
-* insert napkon-metadata(2021-11-17, #draft, 0.1.0)
+* insert napkon-metadata(2021-11-17, #active, 1.0.0)
 * insert mii-patient-reference
 * category 1.. MS
   * coding MS

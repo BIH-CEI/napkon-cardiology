@@ -4,7 +4,7 @@ ValueSet: ECGFindings
 Id: ecg-findings
 Title: "ECG Findings"
 Description: "Other findings from electrocardiogram"
-* insert napkon-metadata(2021-11-17, #draft, 0.1.0)
+* insert napkon-metadata(2021-11-17, #active, 1.0.0)
 * $sct#251150006 "Sinus rhythm (finding)" // Sinusrhythmus
 * $sct#427172004 "Electrocardiogram: premature ventricular contractions (finding)" // Ventrikuläre Extrasystolen
 * $sct#164885009 "Electrocardiographic atrial ectopics (finding)" // Supraventrikuläre Extrasystolen
