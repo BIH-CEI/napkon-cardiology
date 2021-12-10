@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/medication-angiotensin-receptor-antagonist-atc> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "medication-angiotensin-receptor-antagonist-atc"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/atc</code> where concept  is-a  <a href=\"?ngen-14?.html#CodeSystemATC2021-C09C\">C09C</a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://www.napkon.de/fhir/ValueSet/medication-angiotensin-receptor-antagonist-atc"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "MedicationAngiotensinReceptorAntagonistATC"];
+  fhir:ValueSet.title [ fhir:value "Angiotensin II Receptor Antagonist"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2021-11-04"^^xsd:date];
+  fhir:ValueSet.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.bihealth.org/en/research/core-facilities/interoperability/" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Angiotensin II receptor antagonist in the context of cardiology module (ATC DE codes)"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/atc" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "C09C" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/medication-angiotensin-receptor-antagonist-atc.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

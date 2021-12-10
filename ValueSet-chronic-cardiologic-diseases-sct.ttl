@@ -1,0 +1,95 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/chronic-cardiologic-diseases-sct> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "chronic-cardiologic-diseases-sct"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  49436004 (Atrial fibrillation)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  5370000 (Atrial flutter)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  399261000 (Past history of coronary artery bypass grafting)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  84114007 (Heart failure)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  85898001 (Cardiomyopathy)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  13213009 (Congenital heart disease)</li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://www.napkon.de/fhir/ValueSet/chronic-cardiologic-diseases-sct"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "ChronicCardiologicDiseasesSCT"];
+  fhir:ValueSet.title [ fhir:value "Cardiology Chronic Diseases"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2021-11-17"^^xsd:date];
+  fhir:ValueSet.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.bihealth.org/en/research/core-facilities/interoperability/" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Cardiology Chronic Diseases Codes"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "49436004" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "5370000" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "399261000" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "84114007" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "85898001" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "13213009" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/chronic-cardiologic-diseases-sct.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

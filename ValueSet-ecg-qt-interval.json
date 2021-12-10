@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ecg-qt-interval",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=164955000\">164955000</a></td><td>Electrocardiogram: Q-T interval normal (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=111975006\">111975006</a></td><td>Prolonged QT interval (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=77867006\">77867006</a></td><td>Shortened QT interval (finding)</td></tr></table></li></ul></div>"
+  },
+  "url": "https://www.napkon.de/fhir/ValueSet/ecg-qt-interval",
+  "version": "0.1.0",
+  "name": "ECGQTInterval",
+  "title": "ECG QT Interval",
+  "status": "draft",
+  "date": "2021-11-17",
+  "publisher": "Charité - Universitätsmedizin Berlin",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.bihealth.org/en/research/core-facilities/interoperability/"
+        }
+      ]
+    }
+  ],
+  "description": "QT interval findings",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "164955000",
+            "display": "Electrocardiogram: Q-T interval normal (finding)"
+          },
+          {
+            "code": "111975006",
+            "display": "Prolonged QT interval (finding)"
+          },
+          {
+            "code": "77867006",
+            "display": "Shortened QT interval (finding)"
+          }
+        ]
+      }
+    ]
+  }
+}

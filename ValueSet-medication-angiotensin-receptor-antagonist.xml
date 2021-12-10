@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="medication-angiotensin-receptor-antagonist"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  96308008 (Product containing angiotensin II receptor antagonist (product))</li></ul></div>
+  </text>
+  <url value="https://www.napkon.de/fhir/ValueSet/medication-angiotensin-receptor-antagonist"/>
+  <version value="0.1.0"/>
+  <name value="MedicationAngiotensinReceptorAntagonist"/>
+  <title value="Angiotensin II receptor antagonist"/>
+  <status value="draft"/>
+  <date value="2021-11-04"/>
+  <publisher value="Charité - Universitätsmedizin Berlin"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.bihealth.org/en/research/core-facilities/interoperability/"/>
+    </telecom>
+  </contact>
+  <description value="Angiotensin II receptor antagonist in the context of cardiology module (SNOMED CT codes)"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="96308008"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

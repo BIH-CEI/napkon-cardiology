@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "medication-angiotensin-receptor-antagonist-atc",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/atc</code> where concept  is-a  <a href=\"?ngen-14?.html#CodeSystemATC2021-C09C\">C09C</a></li></ul></div>"
+  },
+  "url": "https://www.napkon.de/fhir/ValueSet/medication-angiotensin-receptor-antagonist-atc",
+  "version": "0.1.0",
+  "name": "MedicationAngiotensinReceptorAntagonistATC",
+  "title": "Angiotensin II Receptor Antagonist",
+  "status": "draft",
+  "date": "2021-11-04",
+  "publisher": "Charité - Universitätsmedizin Berlin",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.bihealth.org/en/research/core-facilities/interoperability/"
+        }
+      ]
+    }
+  ],
+  "description": "Angiotensin II receptor antagonist in the context of cardiology module (ATC DE codes)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.de/CodeSystem/bfarm/atc",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "C09C"
+          }
+        ]
+      }
+    ]
+  }
+}

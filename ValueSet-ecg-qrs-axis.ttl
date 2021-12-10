@@ -1,0 +1,77 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/ecg-qrs-axis> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ecg-qrs-axis"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-napkon-cardiology.html\"><code>https://www.napkon.de/fhir/CodeSystem/napkon-cardiology</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-overturned-left-type\">ecg-qrs-axis-overturned-left-type</a></td><td>ECG: QRS axis overturned left type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-left-type\">ecg-qrs-axis-left-type</a></td><td>ECG: QRS axis left type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-indifferent-type\">ecg-qrs-axis-indifferent-type</a></td><td>ECG: QRS axis indifferent type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-steep-type\">ecg-qrs-axis-steep-type</a></td><td>ECG: QRS axis steep type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-right-type\">ecg-qrs-axis-right-type</a></td><td>ECG: QRS axis right type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-overturned-right-type\">ecg-qrs-axis-overturned-right-type</a></td><td>ECG: QRS axis overturned right type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-si-sii-siii-type\">ecg-qrs-axis-si-sii-siii-type</a></td><td>ECG: QRS axis S(I)S(II)S(III) type</td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-qrs-axis-si-qiii-type\">ecg-qrs-axis-si-qiii-type</a></td><td>ECG: QRS axis S(I)Q(III) type</td></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://www.napkon.de/fhir/ValueSet/ecg-qrs-axis"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "ECGQRSAxis"];
+  fhir:ValueSet.title [ fhir:value "ECG QRS Axis"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2021-11-17"^^xsd:date];
+  fhir:ValueSet.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.bihealth.org/en/research/core-facilities/interoperability/" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "QRS axis orientation types"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://www.napkon.de/fhir/CodeSystem/napkon-cardiology" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ecg-qrs-axis-overturned-left-type" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ECG: QRS axis overturned left type" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ecg-qrs-axis-left-type" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ECG: QRS axis left type" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ecg-qrs-axis-indifferent-type" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ECG: QRS axis indifferent type" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ecg-qrs-axis-steep-type" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ECG: QRS axis steep type" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ecg-qrs-axis-right-type" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ECG: QRS axis right type" ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ecg-qrs-axis-overturned-right-type" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ECG: QRS axis overturned right type" ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ecg-qrs-axis-si-sii-siii-type" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ECG: QRS axis S(I)S(II)S(III) type" ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ecg-qrs-axis-si-qiii-type" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ECG: QRS axis S(I)Q(III) type" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/ecg-qrs-axis.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

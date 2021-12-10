@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="napkon-cardiology"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system https://www.napkon.de/fhir/CodeSystem/napkon-cardiology defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-overturned-left-type<a name="napkon-cardiology-ecg-qrs-axis-overturned-left-type"> </a></td><td>ECG: QRS axis overturned left type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-left-type<a name="napkon-cardiology-ecg-qrs-axis-left-type"> </a></td><td>ECG: QRS axis left type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-indifferent-type<a name="napkon-cardiology-ecg-qrs-axis-indifferent-type"> </a></td><td>ECG: QRS axis indifferent type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-steep-type<a name="napkon-cardiology-ecg-qrs-axis-steep-type"> </a></td><td>ECG: QRS axis steep type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-right-type<a name="napkon-cardiology-ecg-qrs-axis-right-type"> </a></td><td>ECG: QRS axis right type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-overturned-right-type<a name="napkon-cardiology-ecg-qrs-axis-overturned-right-type"> </a></td><td>ECG: QRS axis overturned right type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-si-sii-siii-type<a name="napkon-cardiology-ecg-qrs-axis-si-sii-siii-type"> </a></td><td>ECG: QRS axis S(I)S(II)S(III) type</td></tr><tr><td style="white-space:nowrap">ecg-qrs-axis-si-qiii-type<a name="napkon-cardiology-ecg-qrs-axis-si-qiii-type"> </a></td><td>ECG: QRS axis S(I)Q(III) type</td></tr><tr><td style="white-space:nowrap">ecg-bundle-branch-block<a name="napkon-cardiology-ecg-bundle-branch-block"> </a></td><td>ECG: Bundle branch block</td></tr></table></div>
+  </text>
+  <url value="https://www.napkon.de/fhir/CodeSystem/napkon-cardiology"/>
+  <version value="0.1.0"/>
+  <name value="NapkonCardiology"/>
+  <title value="Napkon Cardiology"/>
+  <status value="draft"/>
+  <date value="2021-11-17"/>
+  <publisher value="Charité - Universitätsmedizin Berlin"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.bihealth.org/en/research/core-facilities/interoperability/"/>
+    </telecom>
+  </contact>
+  <description value="NAPKON Cardiology Module Code System - Collection of cardiology module-specific codes that are missing from common terminologies such as SNOMED CT"/>
+  <content value="complete"/>
+  <count value="9"/>
+  <concept>
+    <code value="ecg-qrs-axis-overturned-left-type"/>
+    <display value="ECG: QRS axis overturned left type"/>
+  </concept>
+  <concept>
+    <code value="ecg-qrs-axis-left-type"/>
+    <display value="ECG: QRS axis left type"/>
+  </concept>
+  <concept>
+    <code value="ecg-qrs-axis-indifferent-type"/>
+    <display value="ECG: QRS axis indifferent type"/>
+  </concept>
+  <concept>
+    <code value="ecg-qrs-axis-steep-type"/>
+    <display value="ECG: QRS axis steep type"/>
+  </concept>
+  <concept>
+    <code value="ecg-qrs-axis-right-type"/>
+    <display value="ECG: QRS axis right type"/>
+  </concept>
+  <concept>
+    <code value="ecg-qrs-axis-overturned-right-type"/>
+    <display value="ECG: QRS axis overturned right type"/>
+  </concept>
+  <concept>
+    <code value="ecg-qrs-axis-si-sii-siii-type"/>
+    <display value="ECG: QRS axis S(I)S(II)S(III) type"/>
+  </concept>
+  <concept>
+    <code value="ecg-qrs-axis-si-qiii-type"/>
+    <display value="ECG: QRS axis S(I)Q(III) type"/>
+  </concept>
+  <concept>
+    <code value="ecg-bundle-branch-block"/>
+    <display value="ECG: Bundle branch block"/>
+  </concept>
+</CodeSystem>

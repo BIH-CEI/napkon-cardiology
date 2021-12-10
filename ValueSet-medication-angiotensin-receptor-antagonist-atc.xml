@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="medication-angiotensin-receptor-antagonist-atc"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/atc</code> where concept  is-a  <a href="?ngen-14?.html#CodeSystemATC2021-C09C">C09C</a></li></ul></div>
+  </text>
+  <url value="https://www.napkon.de/fhir/ValueSet/medication-angiotensin-receptor-antagonist-atc"/>
+  <version value="0.1.0"/>
+  <name value="MedicationAngiotensinReceptorAntagonistATC"/>
+  <title value="Angiotensin II Receptor Antagonist"/>
+  <status value="draft"/>
+  <date value="2021-11-04"/>
+  <publisher value="Charité - Universitätsmedizin Berlin"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.bihealth.org/en/research/core-facilities/interoperability/"/>
+    </telecom>
+  </contact>
+  <description value="Angiotensin II receptor antagonist in the context of cardiology module (ATC DE codes)"/>
+  <compose>
+    <include>
+      <system value="http://fhir.de/CodeSystem/bfarm/atc"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="C09C"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

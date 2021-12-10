@@ -1,0 +1,77 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.napkon.de/fhir/CodeSystem/napkon-cardiology> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "napkon-cardiology"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://www.napkon.de/fhir/CodeSystem/napkon-cardiology defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ecg-qrs-axis-overturned-left-type<a name=\"napkon-cardiology-ecg-qrs-axis-overturned-left-type\"> </a></td><td>ECG: QRS axis overturned left type</td></tr><tr><td style=\"white-space:nowrap\">ecg-qrs-axis-left-type<a name=\"napkon-cardiology-ecg-qrs-axis-left-type\"> </a></td><td>ECG: QRS axis left type</td></tr><tr><td style=\"white-space:nowrap\">ecg-qrs-axis-indifferent-type<a name=\"napkon-cardiology-ecg-qrs-axis-indifferent-type\"> </a></td><td>ECG: QRS axis indifferent type</td></tr><tr><td style=\"white-space:nowrap\">ecg-qrs-axis-steep-type<a name=\"napkon-cardiology-ecg-qrs-axis-steep-type\"> </a></td><td>ECG: QRS axis steep type</td></tr><tr><td style=\"white-space:nowrap\">ecg-qrs-axis-right-type<a name=\"napkon-cardiology-ecg-qrs-axis-right-type\"> </a></td><td>ECG: QRS axis right type</td></tr><tr><td style=\"white-space:nowrap\">ecg-qrs-axis-overturned-right-type<a name=\"napkon-cardiology-ecg-qrs-axis-overturned-right-type\"> </a></td><td>ECG: QRS axis overturned right type</td></tr><tr><td style=\"white-space:nowrap\">ecg-qrs-axis-si-sii-siii-type<a name=\"napkon-cardiology-ecg-qrs-axis-si-sii-siii-type\"> </a></td><td>ECG: QRS axis S(I)S(II)S(III) type</td></tr><tr><td style=\"white-space:nowrap\">ecg-qrs-axis-si-qiii-type<a name=\"napkon-cardiology-ecg-qrs-axis-si-qiii-type\"> </a></td><td>ECG: QRS axis S(I)Q(III) type</td></tr><tr><td style=\"white-space:nowrap\">ecg-bundle-branch-block<a name=\"napkon-cardiology-ecg-bundle-branch-block\"> </a></td><td>ECG: Bundle branch block</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://www.napkon.de/fhir/CodeSystem/napkon-cardiology"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "NapkonCardiology"];
+  fhir:CodeSystem.title [ fhir:value "Napkon Cardiology"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2021-11-17"^^xsd:date];
+  fhir:CodeSystem.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.bihealth.org/en/research/core-facilities/interoperability/" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "NAPKON Cardiology Module Code System - Collection of cardiology module-specific codes that are missing from common terminologies such as SNOMED CT"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "9"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "ecg-qrs-axis-overturned-left-type" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ECG: QRS axis overturned left type" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "ecg-qrs-axis-left-type" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ECG: QRS axis left type" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "ecg-qrs-axis-indifferent-type" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ECG: QRS axis indifferent type" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "ecg-qrs-axis-steep-type" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ECG: QRS axis steep type" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "ecg-qrs-axis-right-type" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ECG: QRS axis right type" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "ecg-qrs-axis-overturned-right-type" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ECG: QRS axis overturned right type" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "ecg-qrs-axis-si-sii-siii-type" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ECG: QRS axis S(I)S(II)S(III) type" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "ecg-qrs-axis-si-qiii-type" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ECG: QRS axis S(I)Q(III) type" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "ecg-bundle-branch-block" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ECG: Bundle branch block" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.napkon.de/fhir/CodeSystem/napkon-cardiology.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

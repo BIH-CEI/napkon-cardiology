@@ -3,13 +3,14 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="napkon-cardiology"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>napkoncardiology</h2><p>The official URL for this implementation guide is: </p><pre>https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-cardiology</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>napkoncardiology</h2><p>The official URL for this implementation guide is: </p><pre>https://www.napkon.de/fhir/ImplementationGuide/napkon-cardiology</pre></div>
   </text>
-  <url value="https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-cardiology"/>
+  <url value="https://www.napkon.de/fhir/ImplementationGuide/napkon-cardiology"/>
   <version value="0.1.0"/>
   <name value="napkoncardiology"/>
+  <title value="NAPKON Cardiology Module"/>
   <status value="draft"/>
-  <date value="2021-11-08T22:56:17+00:00"/>
+  <date value="2021-12-10T10:44:55+00:00"/>
   <publisher value="Charité - Universitätsmedizin Berlin"/>
   <contact>
     <name value="Charité - Universitätsmedizin Berlin"/>
@@ -75,6 +76,134 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="show-inherited-invariants"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="usage-stats-opt-out"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludexml"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludejsn"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludettl"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludemap"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludeexample"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="extension-domain"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://www.netzwerk-universitaetsmedizin.de"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="extension-domain"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://napkon.de"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="extension-domain"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://simplifier.net"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueString value="path-liquid"/>
       </extension>
       <extension url="value">
@@ -126,7 +255,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://www.netzwerk-universitaetsmedizin.de/fhir/history.html"/>
+        <valueString value="https://www.napkon.de/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -147,14 +276,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="apply-contact"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="apply-context"/>
       </extension>
       <extension url="value">
@@ -171,44 +292,232 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="apply-jurisdiction"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="apply-license"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
       </extension>
     </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-publisher"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
       </extension>
-      <extension url="value">
-        <valueString value="true"/>
+      <reference>
+        <reference value="StructureDefinition/complications-covid19"/>
+      </reference>
+      <name value="Complications of COVID-19"/>
+      <description value="Complications in the context of COVID-19"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
       </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-version"/>
+      <reference>
+        <reference value="StructureDefinition/cardiovascular-investigation"/>
+      </reference>
+      <name value="Cardiovascular investigation"/>
+      <description value="Defines constraints and methods on imaging procedures performed on the patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
       </extension>
-      <extension url="value">
-        <valueString value="true"/>
+      <reference>
+        <reference value="StructureDefinition/chronic-cardiologic-disease"/>
+      </reference>
+      <name value="Chronic Cardiologic Diseases"/>
+      <description value="Occurrence of Chronic Cardiologic Diseases"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
       </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="active-tables"/>
+      <reference>
+        <reference value="StructureDefinition/ecg-atrioventricular-block"/>
+      </reference>
+      <name value="ECG Atrioventricular Block"/>
+      <description value="Atrioventricular block finding from electrocardiogram"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
       </extension>
-      <extension url="value">
-        <valueString value="true"/>
+      <reference>
+        <reference value="StructureDefinition/ecg-bundle-branch-block"/>
+      </reference>
+      <name value="ECG Bundle Branch Block"/>
+      <description value="Bundle branch block findings from electrocardiogram"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
       </extension>
-    </extension>
+      <reference>
+        <reference value="StructureDefinition/ecg-findings"/>
+      </reference>
+      <name value="ECG Findings"/>
+      <description value="Other findings from electrocardiogram"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ecg-qrs-axis"/>
+      </reference>
+      <name value="ECG QRS Axis"/>
+      <description value="QRS Axis orientiation from electrocardiogram"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ecg-qrs-interval"/>
+      </reference>
+      <name value="ECG QRS Interval"/>
+      <description value="QRS interval from electrocardiogram"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ecg-qt-interval"/>
+      </reference>
+      <name value="ECG QT Interval"/>
+      <description value="QT Interval duration from electrocardiogram"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ecg-st-interval"/>
+      </reference>
+      <name value="ECG ST Interval"/>
+      <description value="ST interval from electrocardiogram"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/echocardiography-findings"/>
+      </reference>
+      <name value="Echocardiography Findings"/>
+      <description value="Findings from echocardiography"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/left-ventricular-ejection-fraction"/>
+      </reference>
+      <name value="Left Ventricular Ejection Fraction"/>
+      <description value="Left Ventricular Ejection Fraction in %"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/medication-angiotensin-receptor-antagonist"/>
+      </reference>
+      <name value="Medication Angiotensin Receptor Antagonist"/>
+      <description value="Medication requirements in the context of cardiology module"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/tricuspid-annular-plane-systolic-excursion"/>
+      </reference>
+      <name value="Tricuspid Annular Plane Systolic Excursion"/>
+      <description value="Tricuspid Annular Plane Systolic Excursion in cm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/condition-diseaseCourse"/>
+      </reference>
+      <name value="DiseaseCourse"/>
+      <description value="The clinical course of the disease (how the disease behaves over time), such as acute versus chronic."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/covid19-complications"/>
+      </reference>
+      <name value="COVID19 Complications"/>
+      <description value="Complications of COVID-19"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/cardiology-imaging-procedures"/>
+      </reference>
+      <name value="Cardiology Imaging Procedures ValueSet"/>
+      <description value="Imaging procedures related to cardiology"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/chronic-cardiologic-diseases-icd"/>
+      </reference>
+      <name value="Cardiology Chronic Diseases"/>
+      <description value="Cardiology Chronic Diseases Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/chronic-cardiologic-diseases-sct"/>
+      </reference>
+      <name value="Cardiology Chronic Diseases"/>
+      <description value="Cardiology Chronic Diseases Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/condition-course"/>
+      </reference>
+      <name value="Condition Course Codes"/>
+      <description value="Value set for clinical course of a disease (how the disease behaves over time)."/>
+      <exampleBoolean value="false"/>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
@@ -218,6 +527,138 @@
       </reference>
       <name value="Detected Not Detected Unknown Undetermined"/>
       <description value="Values for laboratory observations"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ecg-atrioventricular-block"/>
+      </reference>
+      <name value="ECG Atrioventricular Block"/>
+      <description value="Atrioventricular block gradings"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ecg-bundle-branch-block"/>
+      </reference>
+      <name value="ECG Bundle Branch Block"/>
+      <description value="Bundle branch block types"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ecg-findings"/>
+      </reference>
+      <name value="ECG Findings"/>
+      <description value="Other findings from electrocardiogram"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ecg-qrs-axis"/>
+      </reference>
+      <name value="ECG QRS Axis"/>
+      <description value="QRS axis orientation types"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ecg-qrs-interval"/>
+      </reference>
+      <name value="ECG QRS Interval"/>
+      <description value="QRS interval findings"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ecg-qt-interval"/>
+      </reference>
+      <name value="ECG QT Interval"/>
+      <description value="QT interval findings"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ecg-st-interval"/>
+      </reference>
+      <name value="ECG ST Interval"/>
+      <description value="ST Interval findings"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/echocardiography-findings"/>
+      </reference>
+      <name value="Echocardiography Findings"/>
+      <description value="Codes for Echocardiography Findings"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/echocardiography-findings-icd"/>
+      </reference>
+      <name value="Echocardiography Findings ICD10 GM"/>
+      <description value="Codes for Echocardiography Findings (ICD10 GM)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/lvef-interpretation"/>
+      </reference>
+      <name value="LVEF Interpretation"/>
+      <description value="Interpretation of left ventricular ejection fraction"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/medication-angiotensin-receptor-antagonist"/>
+      </reference>
+      <name value="Angiotensin II receptor antagonist"/>
+      <description value="Angiotensin II receptor antagonist in the context of cardiology module (SNOMED CT codes)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/medication-angiotensin-receptor-antagonist-atc"/>
+      </reference>
+      <name value="Angiotensin II Receptor Antagonist"/>
+      <description value="Angiotensin II receptor antagonist in the context of cardiology module (ATC DE codes)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -255,6 +696,171 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/napkon-cardiology"/>
+      </reference>
+      <name value="Napkon Cardiology"/>
+      <description value="NAPKON Cardiology Module Code System - Collection of cardiology module-specific codes that are missing from common terminologies such as SNOMED CT"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/AtrialEctopicsUnknown"/>
+      </reference>
+      <name value="Atrial Ectopics Unknown"/>
+      <description value="Example: Unknown status (presence) of Atrial ectopics"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-findings"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BacterialRespiratoryInfectionUnknown"/>
+      </reference>
+      <name value="Bacterial Respiratory Infection Unknown"/>
+      <description value="Example: Unknown status (presence) of a Bacterial Respiratory Infection"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/complications-covid19"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/CardiogenicShockRefuted"/>
+      </reference>
+      <name value="Cardiogenic shock Refuted"/>
+      <description value="Example: Cardiogenic shock refuted"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/complications-covid19"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/CardiovascularInvestigation"/>
+      </reference>
+      <name value="Cardiovascular Investigation"/>
+      <description value="Example of a Cardiovascular Investigation"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/cardiovascular-investigation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ECGAtrioventricularBlockConfirmed"/>
+      </reference>
+      <name value="ECG Atrioventricular Block Confirmed"/>
+      <description value="Example: Atrioventricular block (complete = grade III) confirmed"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-atrioventricular-block"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ECGAtrioventricularBlockRefuted"/>
+      </reference>
+      <name value="ECG Atrioventricular Block Refuted"/>
+      <description value="Example: Atrioventricular block refuted"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-atrioventricular-block"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ECGAtrioventricularBlockUnknown"/>
+      </reference>
+      <name value="ECG Atrioventricular Block Unknown"/>
+      <description value="Example: Unknown status (presence) of an atrioventricular block"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-atrioventricular-block"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ECGBundleBranchBlock"/>
+      </reference>
+      <name value="ECG Bundle Branch Block"/>
+      <description value="Example: Complete left bundle branch block"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-bundle-branch-block"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ECGNoBundleBranchBlock"/>
+      </reference>
+      <name value="ECG No Bundle Branch Block"/>
+      <description value="Example: No bundle branch block"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-bundle-branch-block"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ECGNoBundleBranchBlockUnknown"/>
+      </reference>
+      <name value="ECG Bundle Branch Block Unknown"/>
+      <description value="Example: Unknown status (presence) of a bundle branch block"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-bundle-branch-block"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ECGQRSAxis"/>
+      </reference>
+      <name value="ECG QRS Axis"/>
+      <description value="Example: QRS Axis steep type"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-qrs-axis"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ECGQRSInterval"/>
+      </reference>
+      <name value="ECG QRS Interval"/>
+      <description value="Example: Wide QRS complex"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-qrs-interval"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ECGQTInterval"/>
+      </reference>
+      <name value="ECG QT Interval"/>
+      <description value="Example: Normal QT interval"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-qt-interval"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ECGSTInterval"/>
+      </reference>
+      <name value="ECG ST Interval"/>
+      <description value="Example: ST segment elevation"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-st-interval"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Patient"/>
       </extension>
       <reference>
@@ -264,14 +870,191 @@
       <description value="Example patient to be used as reference in other instances"/>
       <exampleBoolean value="true"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/InvertedTWaveRefuted"/>
+      </reference>
+      <name value="Inverted T Wave Refuted"/>
+      <description value="Example: Inverted T Wave refuted"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-findings"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationStatement"/>
+      </extension>
+      <reference>
+        <reference value="MedicationStatement/MedicationAngiotensinReceptorAntagonistATC"/>
+      </reference>
+      <name value="Medication Angiotensin Receptor Antagonist"/>
+      <description value="Example of profile medication-angiotensin-receptor-antagonist in the context of cardiology module"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/medication-angiotensin-receptor-antagonist"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationStatement"/>
+      </extension>
+      <reference>
+        <reference value="MedicationStatement/MedicationAngiotensinReceptorAntagonistSCT"/>
+      </reference>
+      <name value="Medication Angiotensin Receptor Antagonist"/>
+      <description value="Example of profile medication-angiotensin-receptor-antagonist in the context of cardiology module"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/medication-angiotensin-receptor-antagonist"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/MyocarditisConfirmed"/>
+      </reference>
+      <name value="Myocarditis Confirmed"/>
+      <description value="Example: Myocarditis confirmed"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/complications-covid19"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SinusRhythmConfirmed"/>
+      </reference>
+      <name value="Sinus Rhythm Confirmed"/>
+      <description value="Example: Sinus Rhythm Confirmed"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/ecg-findings"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/chronic-cardiologic-diseases-instance"/>
+      </reference>
+      <name value="chronic-cardiologic-diseases-instance"/>
+      <description value="Chronical Cardiological Diseases"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/chronic-cardiologic-disease"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/echo-finding-confirmed"/>
+      </reference>
+      <name value="Echocardiography finding - confirmed"/>
+      <description value="Example of a confirmed finding from echocardiography"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/echo-finding-confirmed-icd-snomed"/>
+      </reference>
+      <name value="Echocardiography finding - confirmed (ICD10 GM code)"/>
+      <description value="Example of a confirmed finding from echocardiography"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/echo-finding-refuted"/>
+      </reference>
+      <name value="Echocardiography finding - refuted"/>
+      <description value="Example of a refuted finding from echocardiography"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/echo-finding-uncertain"/>
+      </reference>
+      <name value="Echocardiography finding - unknown"/>
+      <description value="Example of a finding from echocardiography of which the presence is unknown"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/left-ventricular-ejection-fraction"/>
+      </reference>
+      <name value="Example of a left ventricular ejection fraction observation"/>
+      <description value="Example of left ventricular ejection fraction"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/left-ventricular-ejection-fraction"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/tricuspid-annular-plane-systolic-excursion"/>
+      </reference>
+      <name value="Example of a tricuspid annular plane systolic excursion observation"/>
+      <description value="Example of tricuspid annular plane systolic excursion"/>
+      <exampleCanonical value="https://www.napkon.de/fhir/StructureDefinition/tricuspid-annular-plane-systolic-excursion"/>
+    </resource>
     <page>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="Home"/>
+        <title value="NAPKON Cardiology Module"/>
         <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="profiles.html"/>
+        <title value="Profiles"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="codesystems.html"/>
+        <title value="Code Systems"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="valuesets.html"/>
+        <title value="Value Sets"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="extensions.html"/>
+        <title value="Extensions"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="examples.html"/>
+        <title value="Examples"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="changelog.html"/>
+        <title value="Change Log"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="artifacts.html"/>
+        <title value="Artifacts"/>
+        <generation value="html"/>
+        <page>
+          <nameUrl value="gecco-laboratory-troponin.html"/>
+          <title value="GECCO Laboratory Troponin I/T"/>
+          <generation value="markdown"/>
+        </page>
       </page>
     </page>
     <parameter>

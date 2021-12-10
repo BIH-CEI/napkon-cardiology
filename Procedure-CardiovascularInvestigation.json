@@ -1,0 +1,27 @@
+{
+  "resourceType": "Procedure",
+  "id": "CardiovascularInvestigation",
+  "meta": {
+    "profile": [
+      "https://www.napkon.de/fhir/StructureDefinition/cardiovascular-investigation"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 433236007}\">Transthoracic echocardiography (procedure)</span></p><p><b>subject</b>: <a href=\"Patient-ExamplePatient.html\">Generated Summary: Medical record number: napkon-example-patient; maxi musterperson (OFFICIAL); gender: unknown; birthDate: 1990-08-08</a></p><p><b>performed</b>: 2021-01-11</p></div>"
+  },
+  "status": "completed",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "433236007",
+        "display": "Transthoracic echocardiography (procedure)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "performedDateTime": "2021-01-11"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ecg-atrioventricular-block"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=233917008">233917008</a></td><td>Atrioventricular block (disorder)</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=270492004">270492004</a></td><td>First degree atrioventricular block (disorder)</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=195042002">195042002</a></td><td>Second degree atrioventricular block (disorder)</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=27885002">27885002</a></td><td>Complete atrioventricular block (disorder)</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://www.napkon.de/fhir/ValueSet/ecg-atrioventricular-block"/>
+  <version value="0.1.0"/>
+  <name value="ECGAtrioventricularBlock"/>
+  <title value="ECG Atrioventricular Block"/>
+  <status value="draft"/>
+  <date value="2021-11-17"/>
+  <publisher value="Charité - Universitätsmedizin Berlin"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.bihealth.org/en/research/core-facilities/interoperability/"/>
+    </telecom>
+  </contact>
+  <description value="Atrioventricular block gradings"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="233917008"/>
+        <display value="Atrioventricular block (disorder)"/>
+      </concept>
+      <concept>
+        <code value="270492004"/>
+        <display value="First degree atrioventricular block (disorder)"/>
+      </concept>
+      <concept>
+        <code value="195042002"/>
+        <display value="Second degree atrioventricular block (disorder)"/>
+      </concept>
+      <concept>
+        <code value="27885002"/>
+        <display value="Complete atrioventricular block (disorder)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

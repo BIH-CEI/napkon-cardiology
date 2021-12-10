@@ -1,0 +1,27 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "MedicationAngiotensinReceptorAntagonistATC",
+  "meta": {
+    "profile": [
+      "https://www.napkon.de/fhir/StructureDefinition/medication-angiotensin-receptor-antagonist"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: stopped</p><p><b>medication</b>: <span title=\"Codes: {http://fhir.de/CodeSystem/bfarm/atc C09CA03}\">Valsartan</span></p><p><b>subject</b>: <a href=\"Patient-ExamplePatient.html\">Generated Summary: Medical record number: napkon-example-patient; maxi musterperson (OFFICIAL); gender: unknown; birthDate: 1990-08-08</a></p><p><b>effective</b>: 2021-11-09</p></div>"
+  },
+  "status": "stopped",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://fhir.de/CodeSystem/bfarm/atc",
+        "code": "C09CA03",
+        "display": "Valsartan"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "effectiveDateTime": "2021-11-09"
+}

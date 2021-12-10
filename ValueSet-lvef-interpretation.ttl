@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/lvef-interpretation> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "lvef-interpretation"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ObservationInterpretation.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-L\">L</a></td><td>Low</td><td>The result for a quantitative observation is below the lower limit of the reference range (as defined for the respective test procedure).<br/><br/>Synonym: Below low normal</td></tr><tr><td><a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-N\">N</a></td><td>Normal</td><td>The result or observation value is within the reference range or expected norm (as defined for the respective test procedure).<br/><br/>\\[Note: Applies to numeric or non-numeric results.\\]</td></tr><tr><td><a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-H\">H</a></td><td>High</td><td>The result for a quantitative observation is above the upper limit of the reference range (as defined for the respective test procedure).<br/><br/>Synonym: Above high normal</td></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://www.napkon.de/fhir/ValueSet/lvef-interpretation"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "LVEFInterpretation"];
+  fhir:ValueSet.title [ fhir:value "LVEF Interpretation"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2021-11-17"^^xsd:date];
+  fhir:ValueSet.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.bihealth.org/en/research/core-facilities/interoperability/" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Interpretation of left ventricular ejection fraction"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "L" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Low" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Normal" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "H" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "High" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/lvef-interpretation.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

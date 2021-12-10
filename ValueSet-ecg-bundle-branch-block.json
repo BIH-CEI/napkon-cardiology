@@ -1,0 +1,64 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ecg-bundle-branch-block",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=713427006\">713427006</a></td><td>Electrocardiographic complete right bundle branch block (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=733534002\">733534002</a></td><td>Electrocardiographic complete left bundle branch block (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=445118002\">445118002</a></td><td>Left anterior fascicular block on electrocardiogram (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=445211001\">445211001</a></td><td>Left posterior fascicular block on electrocardiogram (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=445481009\">445481009</a></td><td>Bifascicular block on electrocardiogram (finding)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-napkon-cardiology.html\"><code>https://www.napkon.de/fhir/CodeSystem/napkon-cardiology</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-bundle-branch-block\">ecg-bundle-branch-block</a></td><td>ECG: Bundle branch block</td></tr></table></li></ul></div>"
+  },
+  "url": "https://www.napkon.de/fhir/ValueSet/ecg-bundle-branch-block",
+  "version": "0.1.0",
+  "name": "ECGBundleBranchBlock",
+  "title": "ECG Bundle Branch Block",
+  "status": "draft",
+  "date": "2021-11-17",
+  "publisher": "Charité - Universitätsmedizin Berlin",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.bihealth.org/en/research/core-facilities/interoperability/"
+        }
+      ]
+    }
+  ],
+  "description": "Bundle branch block types",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "713427006",
+            "display": "Electrocardiographic complete right bundle branch block (finding)"
+          },
+          {
+            "code": "733534002",
+            "display": "Electrocardiographic complete left bundle branch block (finding)"
+          },
+          {
+            "code": "445118002",
+            "display": "Left anterior fascicular block on electrocardiogram (finding)"
+          },
+          {
+            "code": "445211001",
+            "display": "Left posterior fascicular block on electrocardiogram (finding)"
+          },
+          {
+            "code": "445481009",
+            "display": "Bifascicular block on electrocardiogram (finding)"
+          }
+        ]
+      },
+      {
+        "system": "https://www.napkon.de/fhir/CodeSystem/napkon-cardiology",
+        "concept": [
+          {
+            "code": "ecg-bundle-branch-block",
+            "display": "ECG: Bundle branch block"
+          }
+        ]
+      }
+    ]
+  }
+}

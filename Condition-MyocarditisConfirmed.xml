@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="MyocarditisConfirmed"/>
+  <meta>
+    <profile value="https://www.napkon.de/fhir/StructureDefinition/complications-covid19"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>dueTo</b>: <span title="Codes: {http://snomed.info/sct 840539006}">Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)</span></p><p><b>verificationStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}, {http://snomed.info/sct 410605003}">Confirmed present (qualifier value)</span></p><p><b>category</b>: <span title="Codes: {http://snomed.info/sct 116223007}">Complication (disorder)</span></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 37925008}">Interstitial myocarditis (disorder)</span></p><p><b>subject</b>: <a href="Patient-ExamplePatient.html">Generated Summary: Medical record number: napkon-example-patient; maxi musterperson (OFFICIAL); gender: unknown; birthDate: 1990-08-08</a></p><p><b>recordedDate</b>: 2021-11-09</p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/condition-dueTo">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="840539006"/>
+        <display value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <code value="confirmed"/>
+    </coding>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="410605003"/>
+      <display value="Confirmed present (qualifier value)"/>
+    </coding>
+  </verificationStatus>
+  <category>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="116223007"/>
+      <display value="Complication (disorder)"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="37925008"/>
+      <display value="Interstitial myocarditis (disorder)"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/ExamplePatient"/>
+  </subject>
+  <recordedDate value="2021-11-09"/>
+</Condition>

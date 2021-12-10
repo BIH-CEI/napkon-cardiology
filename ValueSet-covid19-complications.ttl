@@ -1,0 +1,104 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/covid19-complications> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "covid19-complications"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  50920009 (Myocarditis)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  27885002 (Complete atrioventricular block)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  71908006 (Ventricular fibrillation)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  89138009 (Cardiogenic shock)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  34014006 (Viral disease)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  312117008 (Bacterial respiratory infection)</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  373945007 (Pericardial effusion (disorder))</li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://www.napkon.de/fhir/ValueSet/covid19-complications"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "COVID19Complications"];
+  fhir:ValueSet.title [ fhir:value "COVID19 Complications"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2021-12-03"^^xsd:date];
+  fhir:ValueSet.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.bihealth.org/en/research/core-facilities/interoperability/" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Complications of COVID-19"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "50920009" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "27885002" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "71908006" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "89138009" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "34014006" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "312117008" ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "373945007" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/covid19-complications.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

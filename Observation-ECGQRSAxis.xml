@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ECGQRSAxis"/>
+  <meta>
+    <profile value="https://www.napkon.de/fhir/StructureDefinition/ecg-qrs-axis"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 251202000}">Electrocardiographic complex characteristic (observable entity)</span></p><p><b>subject</b>: <a href="Patient-ExamplePatient.html">Generated Summary: Medical record number: napkon-example-patient; maxi musterperson (OFFICIAL); gender: unknown; birthDate: 1990-08-08</a></p><p><b>effective</b>: 2021-11-09</p><p><b>value</b>: <span title="Codes: {https://www.napkon.de/fhir/CodeSystem/napkon-cardiology ecg-qrs-axis-steep-type}">ECG: QRS axis steep type</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="251202000"/>
+      <display value="Electrocardiographic complex characteristic (observable entity)"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/ExamplePatient"/>
+  </subject>
+  <effectiveDateTime value="2021-11-09"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="https://www.napkon.de/fhir/CodeSystem/napkon-cardiology"/>
+      <code value="ecg-qrs-axis-steep-type"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

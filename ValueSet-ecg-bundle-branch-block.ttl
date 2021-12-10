@@ -1,0 +1,73 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/ecg-bundle-branch-block> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ecg-bundle-branch-block"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=713427006\">713427006</a></td><td>Electrocardiographic complete right bundle branch block (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=733534002\">733534002</a></td><td>Electrocardiographic complete left bundle branch block (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=445118002\">445118002</a></td><td>Left anterior fascicular block on electrocardiogram (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=445211001\">445211001</a></td><td>Left posterior fascicular block on electrocardiogram (finding)</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=445481009\">445481009</a></td><td>Bifascicular block on electrocardiogram (finding)</td></tr></table></li><li>Include these codes as defined in <a href=\"CodeSystem-napkon-cardiology.html\"><code>https://www.napkon.de/fhir/CodeSystem/napkon-cardiology</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-napkon-cardiology.html#napkon-cardiology-ecg-bundle-branch-block\">ecg-bundle-branch-block</a></td><td>ECG: Bundle branch block</td></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://www.napkon.de/fhir/ValueSet/ecg-bundle-branch-block"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "ECGBundleBranchBlock"];
+  fhir:ValueSet.title [ fhir:value "ECG Bundle Branch Block"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2021-11-17"^^xsd:date];
+  fhir:ValueSet.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.bihealth.org/en/research/core-facilities/interoperability/" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Bundle branch block types"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "713427006" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrocardiographic complete right bundle branch block (finding)" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "733534002" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Electrocardiographic complete left bundle branch block (finding)" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "445118002" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Left anterior fascicular block on electrocardiogram (finding)" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "445211001" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Left posterior fascicular block on electrocardiogram (finding)" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "445481009" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bifascicular block on electrocardiogram (finding)" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://www.napkon.de/fhir/CodeSystem/napkon-cardiology" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ecg-bundle-branch-block" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ECG: Bundle branch block" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/ecg-bundle-branch-block.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

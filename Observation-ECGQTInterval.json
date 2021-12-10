@@ -1,0 +1,36 @@
+{
+  "resourceType": "Observation",
+  "id": "ECGQTInterval",
+  "meta": {
+    "profile": [
+      "https://www.napkon.de/fhir/StructureDefinition/ecg-qt-interval"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 301117000}\">QT interval duration (observable entity)</span></p><p><b>subject</b>: <a href=\"Patient-ExamplePatient.html\">Generated Summary: Medical record number: napkon-example-patient; maxi musterperson (OFFICIAL); gender: unknown; birthDate: 1990-08-08</a></p><p><b>effective</b>: 2021-11-09</p><p><b>value</b>: <span title=\"Codes: {http://snomed.info/sct 164955000}\">Electrocardiogram: Q-T interval normal (finding)</span></p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "301117000",
+        "display": "QT interval duration (observable entity)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "effectiveDateTime": "2021-11-09",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "164955000",
+        "display": "Electrocardiogram: Q-T interval normal (finding)"
+      }
+    ]
+  }
+}

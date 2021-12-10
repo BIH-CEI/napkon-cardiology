@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="condition-course"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7147002">7147002</a></td><td>New (qualifier value)</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255314001">255314001</a></td><td>Progressive (qualifier value)</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=58158008">58158008</a></td><td>Stable (qualifier value)</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37865006">37865006</a></td><td>Regressive (qualifier value)</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=261665006">261665006</a></td><td>Unknown (qualifier value)</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://www.napkon.de/fhir/ValueSet/condition-course"/>
+  <version value="0.1.0"/>
+  <name value="ConditionCourseCodes"/>
+  <title value="Condition Course Codes"/>
+  <status value="draft"/>
+  <date value="2021-11-17"/>
+  <publisher value="Charité - Universitätsmedizin Berlin"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.bihealth.org/en/research/core-facilities/interoperability/"/>
+    </telecom>
+  </contact>
+  <description value="Value set for clinical course of a disease (how the disease behaves over time)."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="7147002"/>
+        <display value="New (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="255314001"/>
+        <display value="Progressive (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="58158008"/>
+        <display value="Stable (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="37865006"/>
+        <display value="Regressive (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="261665006"/>
+        <display value="Unknown (qualifier value)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

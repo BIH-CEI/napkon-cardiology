@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="chronic-cardiologic-diseases-icd"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I48 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I50 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I42 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q20 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q21 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q22 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q23 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q24 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Z95 and child doesn't exist</li></ul></div>
+  </text>
+  <url value="https://www.napkon.de/fhir/ValueSet/chronic-cardiologic-diseases-icd"/>
+  <version value="0.1.0"/>
+  <name value="ChronicCardiologicDiseasesICD"/>
+  <title value="Cardiology Chronic Diseases"/>
+  <status value="draft"/>
+  <date value="2021-11-17"/>
+  <publisher value="Charité - Universitätsmedizin Berlin"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.bihealth.org/en/research/core-facilities/interoperability/"/>
+    </telecom>
+  </contact>
+  <description value="Cardiology Chronic Diseases Codes"/>
+  <compose>
+    <include>
+      <system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm"/>
+      <version value="2022"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="I48"/>
+      </filter>
+      <filter>
+        <property value="child"/>
+        <op value="exists"/>
+        <value value="false"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm"/>
+      <version value="2022"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="I50"/>
+      </filter>
+      <filter>
+        <property value="child"/>
+        <op value="exists"/>
+        <value value="false"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm"/>
+      <version value="2022"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="I42"/>
+      </filter>
+      <filter>
+        <property value="child"/>
+        <op value="exists"/>
+        <value value="false"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm"/>
+      <version value="2022"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="Q20"/>
+      </filter>
+      <filter>
+        <property value="child"/>
+        <op value="exists"/>
+        <value value="false"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm"/>
+      <version value="2022"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="Q21"/>
+      </filter>
+      <filter>
+        <property value="child"/>
+        <op value="exists"/>
+        <value value="false"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm"/>
+      <version value="2022"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="Q22"/>
+      </filter>
+      <filter>
+        <property value="child"/>
+        <op value="exists"/>
+        <value value="false"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm"/>
+      <version value="2022"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="Q23"/>
+      </filter>
+      <filter>
+        <property value="child"/>
+        <op value="exists"/>
+        <value value="false"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm"/>
+      <version value="2022"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="Q24"/>
+      </filter>
+      <filter>
+        <property value="child"/>
+        <op value="exists"/>
+        <value value="false"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://fhir.de/CodeSystem/bfarm/icd-10-gm"/>
+      <version value="2022"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="Z95"/>
+      </filter>
+      <filter>
+        <property value="child"/>
+        <op value="exists"/>
+        <value value="false"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

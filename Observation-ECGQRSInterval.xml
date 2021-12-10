@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ECGQRSInterval"/>
+  <meta>
+    <profile value="https://www.napkon.de/fhir/StructureDefinition/ecg-qrs-interval"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 39632005}">QRS interval, function (observable entity)</span></p><p><b>subject</b>: <a href="Patient-ExamplePatient.html">Generated Summary: Medical record number: napkon-example-patient; maxi musterperson (OFFICIAL); gender: unknown; birthDate: 1990-08-08</a></p><p><b>effective</b>: 2021-11-09</p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 991002}">Wide QRS complex (finding)</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="39632005"/>
+      <display value="QRS interval, function (observable entity)"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/ExamplePatient"/>
+  </subject>
+  <effectiveDateTime value="2021-11-09"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="991002"/>
+      <display value="Wide QRS complex (finding)"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

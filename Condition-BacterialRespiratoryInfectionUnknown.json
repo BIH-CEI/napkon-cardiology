@@ -1,0 +1,66 @@
+{
+  "resourceType": "Condition",
+  "id": "BacterialRespiratoryInfectionUnknown",
+  "meta": {
+    "profile": [
+      "https://www.napkon.de/fhir/StructureDefinition/complications-covid19"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>dueTo</b>: <span title=\"Codes: {http://snomed.info/sct 840539006}\">Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)</span></p><p><b>category</b>: <span title=\"Codes: {http://snomed.info/sct 116223007}\">Complication (disorder)</span></p><p><b>code</b>: <span title=\"Codes: {http://snomed.info/sct 312117008}\">Bacterial respiratory infection (disorder)</span></p><p><b>subject</b>: <a href=\"Patient-ExamplePatient.html\">Generated Summary: Medical record number: napkon-example-patient; maxi musterperson (OFFICIAL); gender: unknown; birthDate: 1990-08-08</a></p><p><b>recordedDate</b>: 2021-11-09</p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/condition-dueTo",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "840539006",
+            "display": "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+          }
+        ]
+      }
+    }
+  ],
+  "modifierExtension": [
+    {
+      "url": "https://www.netzwerk-universitaetsmedizin.de/fhir/StructureDefinition/uncertainty-of-presence",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "261665006",
+            "display": "Unknown (qualifier value)"
+          }
+        ],
+        "text": "Presence of condition is unknown."
+      }
+    }
+  ],
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "116223007",
+          "display": "Complication (disorder)"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "312117008",
+        "display": "Bacterial respiratory infection (disorder)"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "recordedDate": "2021-11-09"
+}

@@ -3,13 +3,14 @@
   "id": "napkon-cardiology",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>napkoncardiology</h2><p>The official URL for this implementation guide is: </p><pre>https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-cardiology</pre></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>napkoncardiology</h2><p>The official URL for this implementation guide is: </p><pre>https://www.napkon.de/fhir/ImplementationGuide/napkon-cardiology</pre></div>"
   },
-  "url": "https://www.netzwerk-universitaetsmedizin.de/fhir/ImplementationGuide/napkon-cardiology",
+  "url": "https://www.napkon.de/fhir/ImplementationGuide/napkon-cardiology",
   "version": "0.1.0",
   "name": "napkoncardiology",
+  "title": "NAPKON Cardiology Module",
   "status": "draft",
-  "date": "2021-11-08T22:56:17+00:00",
+  "date": "2021-12-10T10:44:55+00:00",
   "publisher": "Charité - Universitätsmedizin Berlin",
   "contact": [
     {
@@ -103,6 +104,214 @@
         "extension": [
           {
             "url": "code",
+            "valueString": "active-tables"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-contact"
+          },
+          {
+            "url": "value",
+            "valueString": "false"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-jurisdiction"
+          },
+          {
+            "url": "value",
+            "valueString": "false"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-publisher"
+          },
+          {
+            "url": "value",
+            "valueString": "false"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-version"
+          },
+          {
+            "url": "value",
+            "valueString": "false"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "show-inherited-invariants"
+          },
+          {
+            "url": "value",
+            "valueString": "false"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "usage-stats-opt-out"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludexml"
+          },
+          {
+            "url": "value",
+            "valueString": "false"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludejsn"
+          },
+          {
+            "url": "value",
+            "valueString": "false"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludettl"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludemap"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludeexample"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "extension-domain"
+          },
+          {
+            "url": "value",
+            "valueString": "https://www.netzwerk-universitaetsmedizin.de"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "extension-domain"
+          },
+          {
+            "url": "value",
+            "valueString": "https://napkon.de"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "extension-domain"
+          },
+          {
+            "url": "value",
+            "valueString": "https://simplifier.net"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "autoload-resources"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
             "valueString": "path-liquid"
           },
           {
@@ -185,7 +394,7 @@
           },
           {
             "url": "value",
-            "valueString": "https://www.netzwerk-universitaetsmedizin.de/fhir/history.html"
+            "valueString": "https://www.napkon.de/fhir/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -220,19 +429,6 @@
         "extension": [
           {
             "url": "code",
-            "valueString": "apply-contact"
-          },
-          {
-            "url": "value",
-            "valueString": "true"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
             "valueString": "apply-context"
           },
           {
@@ -259,59 +455,7 @@
         "extension": [
           {
             "url": "code",
-            "valueString": "apply-jurisdiction"
-          },
-          {
-            "url": "value",
-            "valueString": "true"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
             "valueString": "apply-license"
-          },
-          {
-            "url": "value",
-            "valueString": "true"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "apply-publisher"
-          },
-          {
-            "url": "value",
-            "valueString": "true"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "apply-version"
-          },
-          {
-            "url": "value",
-            "valueString": "true"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "active-tables"
           },
           {
             "url": "value",
@@ -326,6 +470,286 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/complications-covid19"
+        },
+        "name": "Complications of COVID-19",
+        "description": "Complications in the context of COVID-19",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/cardiovascular-investigation"
+        },
+        "name": "Cardiovascular investigation",
+        "description": "Defines constraints and methods on imaging procedures performed on the patient.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/chronic-cardiologic-disease"
+        },
+        "name": "Chronic Cardiologic Diseases",
+        "description": "Occurrence of Chronic Cardiologic Diseases",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ecg-atrioventricular-block"
+        },
+        "name": "ECG Atrioventricular Block",
+        "description": "Atrioventricular block finding from electrocardiogram",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ecg-bundle-branch-block"
+        },
+        "name": "ECG Bundle Branch Block",
+        "description": "Bundle branch block findings from electrocardiogram",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ecg-findings"
+        },
+        "name": "ECG Findings",
+        "description": "Other findings from electrocardiogram",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ecg-qrs-axis"
+        },
+        "name": "ECG QRS Axis",
+        "description": "QRS Axis orientiation from electrocardiogram",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ecg-qrs-interval"
+        },
+        "name": "ECG QRS Interval",
+        "description": "QRS interval from electrocardiogram",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ecg-qt-interval"
+        },
+        "name": "ECG QT Interval",
+        "description": "QT Interval duration from electrocardiogram",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ecg-st-interval"
+        },
+        "name": "ECG ST Interval",
+        "description": "ST interval from electrocardiogram",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/echocardiography-findings"
+        },
+        "name": "Echocardiography Findings",
+        "description": "Findings from echocardiography",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/left-ventricular-ejection-fraction"
+        },
+        "name": "Left Ventricular Ejection Fraction",
+        "description": "Left Ventricular Ejection Fraction in %",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/medication-angiotensin-receptor-antagonist"
+        },
+        "name": "Medication Angiotensin Receptor Antagonist",
+        "description": "Medication requirements in the context of cardiology module",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/tricuspid-annular-plane-systolic-excursion"
+        },
+        "name": "Tricuspid Annular Plane Systolic Excursion",
+        "description": "Tricuspid Annular Plane Systolic Excursion in cm",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/condition-diseaseCourse"
+        },
+        "name": "DiseaseCourse",
+        "description": "The clinical course of the disease (how the disease behaves over time), such as acute versus chronic.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/covid19-complications"
+        },
+        "name": "COVID19 Complications",
+        "description": "Complications of COVID-19",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/cardiology-imaging-procedures"
+        },
+        "name": "Cardiology Imaging Procedures ValueSet",
+        "description": "Imaging procedures related to cardiology",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/chronic-cardiologic-diseases-icd"
+        },
+        "name": "Cardiology Chronic Diseases",
+        "description": "Cardiology Chronic Diseases Codes",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/chronic-cardiologic-diseases-sct"
+        },
+        "name": "Cardiology Chronic Diseases",
+        "description": "Cardiology Chronic Diseases Codes",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/condition-course"
+        },
+        "name": "Condition Course Codes",
+        "description": "Value set for clinical course of a disease (how the disease behaves over time).",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
@@ -334,6 +758,174 @@
         },
         "name": "Detected Not Detected Unknown Undetermined",
         "description": "Values for laboratory observations",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/ecg-atrioventricular-block"
+        },
+        "name": "ECG Atrioventricular Block",
+        "description": "Atrioventricular block gradings",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/ecg-bundle-branch-block"
+        },
+        "name": "ECG Bundle Branch Block",
+        "description": "Bundle branch block types",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/ecg-findings"
+        },
+        "name": "ECG Findings",
+        "description": "Other findings from electrocardiogram",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/ecg-qrs-axis"
+        },
+        "name": "ECG QRS Axis",
+        "description": "QRS axis orientation types",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/ecg-qrs-interval"
+        },
+        "name": "ECG QRS Interval",
+        "description": "QRS interval findings",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/ecg-qt-interval"
+        },
+        "name": "ECG QT Interval",
+        "description": "QT interval findings",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/ecg-st-interval"
+        },
+        "name": "ECG ST Interval",
+        "description": "ST Interval findings",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/echocardiography-findings"
+        },
+        "name": "Echocardiography Findings",
+        "description": "Codes for Echocardiography Findings",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/echocardiography-findings-icd"
+        },
+        "name": "Echocardiography Findings ICD10 GM",
+        "description": "Codes for Echocardiography Findings (ICD10 GM)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/lvef-interpretation"
+        },
+        "name": "LVEF Interpretation",
+        "description": "Interpretation of left ventricular ejection fraction",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/medication-angiotensin-receptor-antagonist"
+        },
+        "name": "Angiotensin II receptor antagonist",
+        "description": "Angiotensin II receptor antagonist in the context of cardiology module (SNOMED CT codes)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/medication-angiotensin-receptor-antagonist-atc"
+        },
+        "name": "Angiotensin II Receptor Antagonist",
+        "description": "Angiotensin II receptor antagonist in the context of cardiology module (ATC DE codes)",
         "exampleBoolean": false
       },
       {
@@ -382,6 +974,216 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/napkon-cardiology"
+        },
+        "name": "Napkon Cardiology",
+        "description": "NAPKON Cardiology Module Code System - Collection of cardiology module-specific codes that are missing from common terminologies such as SNOMED CT",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/AtrialEctopicsUnknown"
+        },
+        "name": "Atrial Ectopics Unknown",
+        "description": "Example: Unknown status (presence) of Atrial ectopics",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-findings"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/BacterialRespiratoryInfectionUnknown"
+        },
+        "name": "Bacterial Respiratory Infection Unknown",
+        "description": "Example: Unknown status (presence) of a Bacterial Respiratory Infection",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/complications-covid19"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/CardiogenicShockRefuted"
+        },
+        "name": "Cardiogenic shock Refuted",
+        "description": "Example: Cardiogenic shock refuted",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/complications-covid19"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Procedure"
+          }
+        ],
+        "reference": {
+          "reference": "Procedure/CardiovascularInvestigation"
+        },
+        "name": "Cardiovascular Investigation",
+        "description": "Example of a Cardiovascular Investigation",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/cardiovascular-investigation"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ECGAtrioventricularBlockConfirmed"
+        },
+        "name": "ECG Atrioventricular Block Confirmed",
+        "description": "Example: Atrioventricular block (complete = grade III) confirmed",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-atrioventricular-block"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ECGAtrioventricularBlockRefuted"
+        },
+        "name": "ECG Atrioventricular Block Refuted",
+        "description": "Example: Atrioventricular block refuted",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-atrioventricular-block"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ECGAtrioventricularBlockUnknown"
+        },
+        "name": "ECG Atrioventricular Block Unknown",
+        "description": "Example: Unknown status (presence) of an atrioventricular block",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-atrioventricular-block"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ECGBundleBranchBlock"
+        },
+        "name": "ECG Bundle Branch Block",
+        "description": "Example: Complete left bundle branch block",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-bundle-branch-block"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ECGNoBundleBranchBlock"
+        },
+        "name": "ECG No Bundle Branch Block",
+        "description": "Example: No bundle branch block",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-bundle-branch-block"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ECGNoBundleBranchBlockUnknown"
+        },
+        "name": "ECG Bundle Branch Block Unknown",
+        "description": "Example: Unknown status (presence) of a bundle branch block",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-bundle-branch-block"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ECGQRSAxis"
+        },
+        "name": "ECG QRS Axis",
+        "description": "Example: QRS Axis steep type",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-qrs-axis"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ECGQRSInterval"
+        },
+        "name": "ECG QRS Interval",
+        "description": "Example: Wide QRS complex",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-qrs-interval"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ECGQTInterval"
+        },
+        "name": "ECG QT Interval",
+        "description": "Example: Normal QT interval",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-qt-interval"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/ECGSTInterval"
+        },
+        "name": "ECG ST Interval",
+        "description": "Example: ST segment elevation",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-st-interval"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Patient"
           }
         ],
@@ -391,6 +1193,174 @@
         "name": "ExamplePatient",
         "description": "Example patient to be used as reference in other instances",
         "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/InvertedTWaveRefuted"
+        },
+        "name": "Inverted T Wave Refuted",
+        "description": "Example: Inverted T Wave refuted",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-findings"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationStatement"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationStatement/MedicationAngiotensinReceptorAntagonistATC"
+        },
+        "name": "Medication Angiotensin Receptor Antagonist",
+        "description": "Example of profile medication-angiotensin-receptor-antagonist in the context of cardiology module",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/medication-angiotensin-receptor-antagonist"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationStatement"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationStatement/MedicationAngiotensinReceptorAntagonistSCT"
+        },
+        "name": "Medication Angiotensin Receptor Antagonist",
+        "description": "Example of profile medication-angiotensin-receptor-antagonist in the context of cardiology module",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/medication-angiotensin-receptor-antagonist"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/MyocarditisConfirmed"
+        },
+        "name": "Myocarditis Confirmed",
+        "description": "Example: Myocarditis confirmed",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/complications-covid19"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SinusRhythmConfirmed"
+        },
+        "name": "Sinus Rhythm Confirmed",
+        "description": "Example: Sinus Rhythm Confirmed",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/ecg-findings"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/chronic-cardiologic-diseases-instance"
+        },
+        "name": "chronic-cardiologic-diseases-instance",
+        "description": "Chronical Cardiological Diseases",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/chronic-cardiologic-disease"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/echo-finding-confirmed"
+        },
+        "name": "Echocardiography finding - confirmed",
+        "description": "Example of a confirmed finding from echocardiography",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/echo-finding-confirmed-icd-snomed"
+        },
+        "name": "Echocardiography finding - confirmed (ICD10 GM code)",
+        "description": "Example of a confirmed finding from echocardiography",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/echo-finding-refuted"
+        },
+        "name": "Echocardiography finding - refuted",
+        "description": "Example of a refuted finding from echocardiography",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/echo-finding-uncertain"
+        },
+        "name": "Echocardiography finding - unknown",
+        "description": "Example of a finding from echocardiography of which the presence is unknown",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/echocardiography-findings"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/left-ventricular-ejection-fraction"
+        },
+        "name": "Example of a left ventricular ejection fraction observation",
+        "description": "Example of left ventricular ejection fraction",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/left-ventricular-ejection-fraction"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/tricuspid-annular-plane-systolic-excursion"
+        },
+        "name": "Example of a tricuspid annular plane systolic excursion observation",
+        "description": "Example of tricuspid annular plane systolic excursion",
+        "exampleCanonical": "https://www.napkon.de/fhir/StructureDefinition/tricuspid-annular-plane-systolic-excursion"
       }
     ],
     "page": {
@@ -400,8 +1370,55 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "Home",
+          "title": "NAPKON Cardiology Module",
           "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles.html",
+          "title": "Profiles",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "codesystems.html",
+          "title": "Code Systems",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "valuesets.html",
+          "title": "Value Sets",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "extensions.html",
+          "title": "Extensions",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "examples.html",
+          "title": "Examples",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "downloads.html",
+          "title": "Downloads",
+          "generation": "html"
+        },
+        {
+          "nameUrl": "changelog.html",
+          "title": "Change Log",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "artifacts.html",
+          "title": "Artifacts",
+          "generation": "html",
+          "page": [
+            {
+              "nameUrl": "gecco-laboratory-troponin.html",
+              "title": "GECCO Laboratory Troponin I/T",
+              "generation": "markdown"
+            }
+          ]
         }
       ]
     },

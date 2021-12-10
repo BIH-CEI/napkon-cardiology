@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationStatement xmlns="http://hl7.org/fhir">
+  <id value="MedicationAngiotensinReceptorAntagonistATC"/>
+  <meta>
+    <profile value="https://www.napkon.de/fhir/StructureDefinition/medication-angiotensin-receptor-antagonist"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: stopped</p><p><b>medication</b>: <span title="Codes: {http://fhir.de/CodeSystem/bfarm/atc C09CA03}">Valsartan</span></p><p><b>subject</b>: <a href="Patient-ExamplePatient.html">Generated Summary: Medical record number: napkon-example-patient; maxi musterperson (OFFICIAL); gender: unknown; birthDate: 1990-08-08</a></p><p><b>effective</b>: 2021-11-09</p></div>
+  </text>
+  <status value="stopped"/>
+  <medicationCodeableConcept>
+    <coding>
+      <system value="http://fhir.de/CodeSystem/bfarm/atc"/>
+      <code value="C09CA03"/>
+      <display value="Valsartan"/>
+    </coding>
+  </medicationCodeableConcept>
+  <subject>
+    <reference value="Patient/ExamplePatient"/>
+  </subject>
+  <effectiveDateTime value="2021-11-09"/>
+</MedicationStatement>

@@ -1,0 +1,791 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/echocardiography-findings-icd> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "echocardiography-findings-icd"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I51.8 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I30 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I31.3 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I05.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I06.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I07.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I08 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I09.8 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I34.2 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I35.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I36.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I37.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q22 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q23 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I35.1 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q23.1 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I06.1 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I06.2 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I35.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q23.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I06.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I06.2 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I34.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q23.3 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I05.1 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I05.2 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I34.2 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I05.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I05.2 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q23.2 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I07.1 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I07.2 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I36.1 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I07.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I07.2 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I36.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I36.2 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q22.4 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I37.1 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q22.2 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I37.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  Q22.1 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I51.8 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I33.0 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I82.9 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I80 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I81 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I82 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I42.2 and child doesn't exist</li><li>Include codes from <code>http://fhir.de/CodeSystem/bfarm/icd-10-gm</code> where concept  is-a  I51.7 and child doesn't exist</li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://www.napkon.de/fhir/ValueSet/echocardiography-findings-icd"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "EchocardiographyFindingsICD"];
+  fhir:ValueSet.title [ fhir:value "Echocardiography Findings ICD10 GM"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2021-11-24"^^xsd:date];
+  fhir:ValueSet.publisher [ fhir:value "Charité - Universitätsmedizin Berlin"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.bihealth.org/en/research/core-facilities/interoperability/" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Codes for Echocardiography Findings (ICD10 GM)"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I51.8" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I30" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I31.3" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I05.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I06.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I07.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I08" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I09.8" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 8;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I34.2" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 9;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I35.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 10;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I36.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 11;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I37.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 12;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "Q22" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 13;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "Q23" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 14;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I35.1" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 15;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "Q23.1" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 16;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I06.1" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 17;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I06.2" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 18;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I35.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 19;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "Q23.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 20;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I06.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 21;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I06.2" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 22;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I34.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 23;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "Q23.3" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 24;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I05.1" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 25;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I05.2" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 26;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I34.2" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 27;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I05.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 28;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I05.2" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 29;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "Q23.2" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 30;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I07.1" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 31;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I07.2" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 32;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I36.1" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 33;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I07.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 34;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I07.2" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 35;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I36.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 36;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I36.2" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 37;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "Q22.4" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 38;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I37.1" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 39;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "Q22.2" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 40;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I37.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 41;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "Q22.1" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 42;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I51.8" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 43;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I33.0" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 44;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I82.9" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 45;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I80" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 46;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I81" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 47;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I82" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 48;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I42.2" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ], [
+       fhir:index 49;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://fhir.de/CodeSystem/bfarm/icd-10-gm" ];
+       fhir:ValueSet.compose.include.version [ fhir:value "2022" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "I51.7" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "child" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "exists" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "false" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.napkon.de/fhir/ValueSet/echocardiography-findings-icd.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

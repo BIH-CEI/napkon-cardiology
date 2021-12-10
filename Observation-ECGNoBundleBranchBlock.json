@@ -1,0 +1,28 @@
+{
+  "resourceType": "Observation",
+  "id": "ECGNoBundleBranchBlock",
+  "meta": {
+    "profile": [
+      "https://www.napkon.de/fhir/StructureDefinition/ecg-bundle-branch-block"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p></p><p><b>code</b>: <span title=\"Codes: {https://www.napkon.de/fhir/CodeSystem/napkon-cardiology ecg-bundle-branch-block}\">ECG: Bundle branch block</span></p><p><b>subject</b>: <a href=\"Patient-ExamplePatient.html\">Generated Summary: Medical record number: napkon-example-patient; maxi musterperson (OFFICIAL); gender: unknown; birthDate: 1990-08-08</a></p><p><b>effective</b>: 2021-11-09</p><p><b>value</b>: false</p></div>"
+  },
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "https://www.napkon.de/fhir/CodeSystem/napkon-cardiology",
+        "code": "ecg-bundle-branch-block",
+        "display": "ECG: Bundle branch block"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/ExamplePatient"
+  },
+  "effectiveDateTime": "2021-11-09",
+  "valueBoolean": false
+}
