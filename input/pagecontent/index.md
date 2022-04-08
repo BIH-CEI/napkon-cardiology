@@ -13,7 +13,7 @@ It was created in the context of the [National Pandemic Cohort Network (NAPKON)]
 
 #### Content-related module definition (in alphabetical order)
 * Marcus Dörr (Universitätsmedizin Greifswald)
-* Ann Frey (Universitätsklinikum Würzburg)
+* Anna Frey (Universitätsklinikum Würzburg)
 
 #### With support from (in alphabetical order)
 * Alexander Bartschke (Charité Universitätsmedizin Berlin)
