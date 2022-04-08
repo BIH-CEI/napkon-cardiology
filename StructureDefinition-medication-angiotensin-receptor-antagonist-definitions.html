@@ -149,6 +149,7 @@
 
 
 
+
 <ul class="nav nav-tabs">
 
   <li>
@@ -197,6 +198,21 @@
 
 <a name="root"> </a>
 <h2 id="root">Resource Profile: MedicationAngiotensinReceptorAntagonist - Detailed Descriptions</h2>
+  <table class="colstu">
+    <tr>
+
+      <td colspan="2">
+        
+          Active
+          
+            as of 2021-11-04
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
 
 <p>Definitions for the medication-angiotensin-receptor-antagonist resource profile.</p>
 
@@ -557,7 +573,7 @@ A coded concept identifying the substance or product being taken.
   <tr><td>Definition</td><td><p>A reference from one resource to another.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1 This element is affected by the following invariants: ele-1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a name="l2573">​</a><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="null" title="[CanonicalType[https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference]]">MII-Reference</a>)(<a href="http://hl7.org/fhir/R4/patient.html" title="http://hl7.org/fhir/StructureDefinition/Patient">Patient</a> | <a href="http://hl7.org/fhir/R4/group.html" title="http://hl7.org/fhir/StructureDefinition/Group">Group</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a name="l2582">​</a><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="null" title="[CanonicalType[https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference]]">MII-Reference</a>)(<a href="http://hl7.org/fhir/R4/patient.html" title="http://hl7.org/fhir/StructureDefinition/Patient">Patient</a> | <a href="http://hl7.org/fhir/R4/group.html" title="http://hl7.org/fhir/StructureDefinition/Group">Group</a>)</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Must Support Types</a></td><td>No must-support rules about the choice of types/profiles</td></tr>
   <tr><td>Comments</td><td><p>References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc.). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository.</p>
@@ -804,7 +820,7 @@ A coded concept describing the site location the medicine enters into or onto th
   <tr><td>Definition</td><td><p>A reference to a code defined by a terminology system.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..* This element is affected by the following invariants: ele-1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l4224">​</a>For example codes, see <a href="file://C:\GitHub\hl7.fhir.uv.ips#1.0.0\output/ValueSet-target-site-uv-ips.html">Target Site - IPS</a>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l4233">​</a>For example codes, see <a href="file://C:\GitHub\hl7.fhir.uv.ips#1.0.0\output/ValueSet-target-site-uv-ips.html">Target Site - IPS</a>
 target site IPS
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td></tr>
@@ -947,7 +963,7 @@ A coded concept describing the route or physiological path of administration of 
   <tr><td>Definition</td><td><p>A reference to a code defined by a terminology system.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..* This element is affected by the following invariants: ele-1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l5119">​</a>The codes SHOULD be taken from <a href="file://C:\GitHub\hl7.fhir.uv.ips#1.0.0\output/ValueSet-medicine-route-of-administration.html">Medicine Route of Administration - IPS</a>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td><a name="l5128">​</a>The codes SHOULD be taken from <a href="file://C:\GitHub\hl7.fhir.uv.ips#1.0.0\output/ValueSet-medicine-route-of-administration.html">Medicine Route of Administration - IPS</a>
 EDQM Standard Terms
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td></tr>
@@ -1294,10 +1310,10 @@ The kind of dose or rate specified.
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2021+ <a href="https://www.netzwerk-universitaetsmedizin.de">Charité - Universitätsmedizin Berlin</a>.  Package napkon-cardiology#1.0.0 based on <a href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 10, 2021 11:46+0000">2021-12-10</span>
+          IG &copy; 2021+ <a href="https://www.netzwerk-universitaetsmedizin.de">Charité - Universitätsmedizin Berlin</a>.  Package napkon-cardiology#1.0.0 based on <a href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 8, 2022 10:13+0000">2022-04-08</span>
           <br/>
           <span style="color: #FFFF77">
-            <p style="color: white"><a name="l7062">​</a>
+            <p style="color: white"><a name="l7071">​</a>
        Links: <a href="toc.html">Table of Contents</a> |
        <a href="qa.html">QA Report</a> |
        <a href="https://github.com/BIH-CEI/napkon-cardiology/issues/" target="_blank">Issues</a> |
